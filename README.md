@@ -565,6 +565,10 @@ FROM dbo.sales;
   <img src="BI_Visuals/Revenue%20KPI.png" width="92%">
 </p>
 
+<p align="center">
+  <img src="BI_Visuals/KPI%20Trend.png" width="92%">
+</p
+
 ---
 
 ### 🟡 Query 3 — Revenue & AOV by Product Category
