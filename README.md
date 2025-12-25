@@ -308,7 +308,7 @@ All SQL-based analysis queries were executed on the **production fact & dimensio
 
 ---
 
-✔ This workflow delivers a robust, auditable, and enterprise-style ETL process designed for **data accuracy, performance reliability, and scalable analytics.**
+ This workflow delivers a robust, auditable, and enterprise-style ETL process designed for **data accuracy, performance reliability, and scalable analytics.**
 
 </td></tr>
 </table>
