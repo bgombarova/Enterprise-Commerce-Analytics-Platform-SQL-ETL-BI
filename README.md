@@ -668,6 +668,7 @@ FROM dbo.sales s
 GROUP BY s.Customer_ID
 ORDER BY lifetime_revenue DESC
 OFFSET 0 ROWS FETCH NEXT 20 ROWS ONLY;
+```
 
 Visualization — Top Revenue Customers 
 <p align="center"> <img src="BI_Visuals/Top%2020%20Customers%20Revenue.png" width="92%"> </p>
