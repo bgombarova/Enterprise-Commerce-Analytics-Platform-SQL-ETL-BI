@@ -515,7 +515,7 @@ Overall, this methodology ensured that insights were generated through a **disci
 
 
 
-<table width="100%">
+<table width="120%">
 <tr>
 <td style="border:1px solid #d9d9d9; border-radius:6px; background:#fafafa; padding:16px;">
 
