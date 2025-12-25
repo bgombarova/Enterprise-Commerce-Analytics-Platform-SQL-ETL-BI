@@ -364,7 +364,6 @@ Together, these tools formed an integrated workflow that supported:
 
 ---
 
----
 
 <table width="90%" align="center">
 <tr><td>
