@@ -606,14 +606,26 @@ ORDER BY [Year], [Month];
 
 ---
 
-### 🧠 Key Insights
+### Sales Performance — Key Insights (Evidence-Based)
 
-- ~220K orders across ~5K customers  
-- Total lifetime revenue: **$281M+**  
-- Electronics drives highest revenue + AOV  
-- Sports & Fashion dominate order volume  
-- Revenue follows clear seasonal cycles  
-- 2025 indicates demand slowdown signals  
+-Total recorded revenue is approximately $281.5M
+Revenue growth is strongest in 2023, followed by a decline trend through 2024 and 2025, indicating a post-peak normalization period.
+
+-Electronics contributes the highest share of portfolio revenue (~$135M)
+Electronics also shows the highest AOV ($5K+), confirming that this category is driven by fewer but higher-value premium orders.
+
+-Sports, Fashion, and Books generate high order counts but lower AOV
+These categories function as volume drivers, contributing significantly to transaction count but moderately to revenue.
+
+-Clear seasonal revenue spikes are visible across multiple years
+Peaks align with mid-year and year-end retail seasons, suggesting strong responsiveness to campaign windows and promotional cycles.
+
+-2025 reflects early signs of demand softening
+Orders drop from 56K (2023 peak) → 46K (2024) → 33K (2025),
+pointing toward reduced purchasing frequency and possible retention risk.
+
+-AOV remains stable at ~$1.28K despite demand slowdown
+This indicates that the issue is volume-driven, not pricing or order value erosion.
 
 </div>
 
