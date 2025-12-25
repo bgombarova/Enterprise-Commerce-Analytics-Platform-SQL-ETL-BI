@@ -540,8 +540,9 @@ SELECT
 ```
 
 **Visualization — Portfolio Summary KPIs**  
-👉 *(insert KPI tiles: Customers • Product Categories • Total Orders)*
-
+<p align="center">
+  <img src="C:\Users\Umair Nawaz\downloads\query1.png" width="92%">
+</p>
 ---
 
 ### 🟡 Query 2 — Total Revenue, Orders & AOV
