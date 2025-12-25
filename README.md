@@ -12,7 +12,7 @@ The company serves a nationwide customer base and processes sales activity acros
 
 - **50,00+ unique customers**
 - **100,000+ historical transactions**
-- **$25M–$30M+ in recorded sales revenue**
+- **$281M+ in recorded sales revenue**
 - **Multiple sales and fulfillment channels**
 - **Delivery time, returns, discounting & behavioral attributes**
 
