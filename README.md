@@ -513,7 +513,7 @@ Overall, this methodology ensured that insights were generated through a **disci
 </td></tr>
 </table>
 
-<table width="95%" align="center">
+<table width="100%" align="center">
 <tr><td>
 
 
