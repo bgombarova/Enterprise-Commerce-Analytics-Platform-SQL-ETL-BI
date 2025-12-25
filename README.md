@@ -791,13 +791,14 @@ Some high-value customers show recency gaps exceeding 90–120+ days, highlighti
 This section analyzes product-level commercial performance, including profitability, discount dependency, and financial exposure from returns.
 Insights are derived using SQL queries and validated through Power BI visual analytics.
 
-🟡 Query — Profitability by Product Category (Gross Profit & Margin%)
+### 🟡 Query — Profitability by Product Category (Gross Profit & Margin%)
 
-Purpose — Identify high-margin and low-margin product categories.
+**Purpose** — Identify high-margin and low-margin product categories.
 
-Business Question
+**Business Question** 
 Which product categories contribute most to gross profit and margin efficiency?
 
+```sql
 SELECT 
     p.Product_Category,
     SUM(s.Gross_Profit) AS gross_profit,
@@ -810,18 +811,21 @@ JOIN dbo.product_category p
     ON s.Product_Category = p.Product_Category
 GROUP BY p.Product_Category
 ORDER BY profit_margin_pct DESC;
+```
 
 
 Visualization — Gross Profit & Margin by Category
 
 <p align="center"> <img src="BI_Visuals/Product%20Profitability%20-%20Margin%20by%20Category.png" width="92%"> </p>
-🟡 Query — Discount Impact on Orders & Revenue
 
-Purpose — Measure dependency on discounted transactions.
+### 🟡 Query — Discount Impact on Orders & Revenue
 
-Business Question
+**Purpose** — Measure dependency on discounted transactions.
+
+**Business Question** 
 Do discounted orders drive volume at the cost of AOV and profitability?
 
+```sql
 SELECT 
   CASE WHEN Discount_Amount > 0 THEN 'Discounted' ELSE 'Non-Discounted' END AS bucket,
   COUNT(*) AS orders,
@@ -829,18 +833,20 @@ SELECT
   AVG(Total_Amount) AS avg_order_value
 FROM dbo.sales
 GROUP BY CASE WHEN Discount_Amount > 0 THEN 'Discounted' ELSE 'Non-Discounted' END;
-
+```
 
 Visualization — Discounted vs Non-Discounted Order Performance
 
 <p align="center"> <img src="BI_Visuals/Discount%20Impact%20-%20Orders%20Revenue%20AOV.png" width="92%"> </p>
-🟡 Query — Return Exposure & Financial Loss Impact
 
-Purpose — Quantify financial leakage from returned orders.
+### 🟡 Query — Return Exposure & Financial Loss Impact
 
-Business Question
+**Purpose** — Quantify financial leakage from returned orders.
+
+**Business Question** 
 What percentage of orders are returned and how much revenue is lost?
 
+```sql
 SELECT 
   SUM(CASE WHEN Return_Flag = 1 THEN 1 ELSE 0 END) AS returns_count,
   CAST(
@@ -849,18 +855,19 @@ SELECT
   ) AS return_rate_pct,
   SUM(CASE WHEN Return_Flag = 1 THEN Total_Amount ELSE 0 END) AS return_value
 FROM dbo.sales;
-
+```
 
 Visualization — Return Rate & Financial Loss Impact
 
 <p align="center"> <img src="BI_Visuals/Return%20Loss%20-%20Exposure%20Summary.png" width="92%"> </p>
-🟡 Query — High-Loss Return Orders (Exception Monitoring)
 
-Purpose — Identify extreme loss-impact cases for investigation.
+### 🟡 Query — High-Loss Return Orders (Exception Monitoring)
 
-Business Question
+**Purpose** — Identify extreme loss-impact cases for investigation.
+
+**Business Question** 
 Which individual orders account for the highest financial loss due to returns?
-
+```sql
 SELECT TOP(50) 
   Order_ID,
   Customer_ID,
@@ -869,7 +876,7 @@ SELECT TOP(50)
 FROM dbo.sales
 WHERE Return_Loss > 0
 ORDER BY Return_Loss DESC;
-
+```
 
 Visualization — High Loss Return Outliers (Risk Flags)
 
