@@ -608,22 +608,22 @@ ORDER BY [Year], [Month];
 
 ### 🧠 Sales Performance — Key Insights (Evidence-Based)
 
-Total recorded revenue is approximately $281.5M
+-Total recorded revenue is approximately $281.5M.
 Revenue peaks in 2023, followed by a gradual decline in 2024–2025, indicating a post-growth normalization period.
 
-Electronics is the largest revenue contributor (~$135M)
+-Electronics is the largest revenue contributor (~$135M).
 It also has the highest AOV ($5K+), meaning the category is driven by fewer but higher-value premium transactions.
 
-Sports, Fashion, and Books generate high order volume but lower AOV
+-Sports, Fashion, and Books generate high order volume but lower AOV.
 These categories act as volume drivers, contributing strongly to transaction count but moderately to revenue share.
 
-Clear seasonal demand cycles are visible across multiple years
+-Clear seasonal demand cycles are visible across multiple years.
 Revenue spikes occur during mid-year and year-end periods, reflecting strong response to retail campaigns and promotions.
 
-2025 indicates emerging demand slowdown signals
+-2025 indicates emerging demand slowdown signals.
 Annual order volume declines from 56K (2023) → 46K (2024) → 33K (2025), suggesting reduced purchasing frequency and potential retention risk.
 
-AOV remains stable at ~$1.28K despite order decline
+-AOV remains stable at ~$1.28K despite order decline.
 This confirms performance impact is volume-driven, not caused by discount erosion or ticket-size reduction.
 
 </div>
