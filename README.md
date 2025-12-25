@@ -20,7 +20,7 @@ A structured data engineering and analytics workflow was applied using:
 
 - **SQL Server** — data ingestion, staging, transformation, and analytical queries  
 - **Excel** — tabular validation, KPI summaries, and heatmap analysis  
-- **Power BI** — visual analytics and executive insight storytelling  
+- **Tableau** — visual analytics and executive insight storytelling  
 
 The research focuses on deriving actionable insights across:
 
@@ -129,7 +129,7 @@ The research goal is to transform raw transactional data into actionable insight
 
 ###  **Dataset Description**
 
-The dataset contains multi-year ecommerce transaction records and supporting dimensional attributes covering operations from **2021 to 2025**. The data was validated in Excel, staged in SQL Server through staging tables, transformed into production tables, and analyzed using SQL queries and Power BI visual dashboards.
+The dataset contains multi-year ecommerce transaction records and supporting dimensional attributes covering operations from **2021 to 2025**. The data was validated in Excel, staged in SQL Server through staging tables, transformed into production tables, and analyzed using SQL queries and Tableau visual dashboards.
 
 The analytical model consists of the following core datasets:
 
@@ -293,7 +293,7 @@ The final schema follows a **star-schema analytical design**, optimized for:
 
 - SQL analytical queries
 - business insight reporting
-- Power BI visualization
+- Tableau visualization
 
 ---
 
@@ -301,7 +301,7 @@ The final schema follows a **star-schema analytical design**, optimized for:
 
 The cleaned production tables were connected to:
 
-- **Power BI** → for interactive dashboards and insights
+- **Tableau** → for interactive dashboards and insights
 - (optionally) Tableau → for visual exploration and validation
 
 All SQL-based analysis queries were executed on the **production fact & dimension tables**, not on staging data — ensuring high-quality analytical outputs.
