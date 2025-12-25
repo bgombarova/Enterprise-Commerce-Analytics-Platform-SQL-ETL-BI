@@ -785,13 +785,16 @@ Some high-value customers show recency gaps exceeding 90–120+ days, highlighti
 
 </div> 
 
-📦 Product Performance & Profitability Analysis — SQL Insights + BI Visuals
+> <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
+
+
+> ### **Product Performance & Profitability Analysis**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 This section analyzes product-level commercial performance, including profitability, discount dependency, and financial exposure from returns.
 Insights are derived using SQL queries and validated through Power BI visual analytics.
 
-### 🟡 Query — Profitability by Product Category (Gross Profit & Margin%)
+### 🟡 Query 9 — Profitability by Product Category (Gross Profit & Margin%)
 
 **Purpose** — Identify high-margin and low-margin product categories.
 
@@ -818,7 +821,7 @@ Visualization — Gross Profit & Margin by Category
 
 <p align="center"> <img src="BI_Visuals/Product%20Profitability%20-%20Margin%20by%20Category.png" width="92%"> </p>
 
-### 🟡 Query — Discount Impact on Orders & Revenue
+### 🟡 Query 10 — Discount Impact on Orders & Revenue
 
 **Purpose** — Measure dependency on discounted transactions.
 
@@ -839,7 +842,7 @@ Visualization — Discounted vs Non-Discounted Order Performance
 
 <p align="center"> <img src="BI_Visuals/Discount%20Impact%20-%20Orders%20Revenue%20AOV.png" width="92%"> </p>
 
-### 🟡 Query — Return Exposure & Financial Loss Impact
+### 🟡 Query 11 — Return Exposure & Financial Loss Impact
 
 **Purpose** — Quantify financial leakage from returned orders.
 
@@ -861,7 +864,7 @@ Visualization — Return Rate & Financial Loss Impact
 
 <p align="center"> <img src="BI_Visuals/Return%20Loss%20-%20Exposure%20Summary.png" width="92%"> </p>
 
-### 🟡 Query — High-Loss Return Orders (Exception Monitoring)
+### 🟡 Query 12 — High-Loss Return Orders (Exception Monitoring)
 
 **Purpose** — Identify extreme loss-impact cases for investigation.
 
