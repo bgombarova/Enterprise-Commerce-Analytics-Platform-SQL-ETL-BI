@@ -825,7 +825,7 @@ ORDER BY profit_margin_pct DESC;
 
 Visualization — Gross Profit & Margin by Category
 
-<p align="center"> <img src="BI_Visuals/Product%20Profitability%20-%20Margin%20by%20Category.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Profitability%20by%20Product%20Category.png" width="92%"> </p>
 
 ### 🟡 Query 10 — Discount Impact on Orders & Revenue
 
@@ -846,9 +846,11 @@ GROUP BY CASE WHEN Discount_Amount > 0 THEN 'Discounted' ELSE 'Non-Discounted' E
 
 Visualization — Discounted vs Non-Discounted Order Performance
 
-<p align="center"> <img src="BI_Visuals/Discount%20Impact%20-%20Orders%20Revenue%20AOV.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Discount%20Impact%20on%20Orders%20%26%20Revenue.png" width="92%"> </p>
+<p align="center"> <img src="Discount%20Impact%20on%20Orders%20(Pie%20Chart).png" width="92%"> </p>
 
-### 🟡 Query 11 — Return Exposure & Financial Loss Impact
+
+### 🟡 Query 11 — Returns & Loss Impact — Product Category Level
 
 **Purpose** — Quantify financial leakage from returned orders.
 
@@ -857,18 +859,34 @@ What percentage of orders are returned and how much revenue is lost?
 
 ```sql
 SELECT 
-  SUM(CASE WHEN Return_Flag = 1 THEN 1 ELSE 0 END) AS returns_count,
-  CAST(
-    100.0 * SUM(CASE WHEN Return_Flag = 1 THEN 1 ELSE 0 END) / COUNT(*)
-    AS DECIMAL(6,2)
-  ) AS return_rate_pct,
-  SUM(CASE WHEN Return_Flag = 1 THEN Total_Amount ELSE 0 END) AS return_value
-FROM dbo.sales;
+    p.Product_Category,
+
+    COUNT(*) AS total_orders,
+
+    SUM(CASE WHEN s.Return_Flag = 1 THEN 1 ELSE 0 END) AS returns_count,
+
+    CAST(
+        100.0 * SUM(CASE WHEN s.Return_Flag = 1 THEN 1 ELSE 0 END) 
+        / COUNT(*)
+        AS DECIMAL(6,2)
+    ) AS return_rate_pct,
+
+    SUM(CASE WHEN s.Return_Flag = 1 THEN s.Total_Amount ELSE 0 END) AS return_value
+
+FROM dbo.sales s
+JOIN dbo.product_category p 
+    ON s.Product_Category = p.Product_Category
+
+GROUP BY p.Product_Category
+ORDER BY return_rate_pct DESC;
+
 ```
 
 Visualization — Return Rate & Financial Loss Impact
 
-<p align="center"> <img src="BI_Visuals/Return%20Loss%20-%20Exposure%20Summary.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Returns%20%26%20Loss%20Impact%20—%20Product%20Category%20Level.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Returns%20%26%20Loss%20Impact%20—%20Product%20Category%20Level%20Chart.png" width="92%"> </p>
+
 
 ### 🟡 Query 12 — High-Loss Return Orders (Exception Monitoring)
 
