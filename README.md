@@ -674,7 +674,7 @@ OFFSET 0 ROWS FETCH NEXT 20 ROWS ONLY;
 ```
 
 Visualization — Top Revenue Customers 
-<p align="center"> <img src="BI_Visuals/Top%2020%20Customers%20Revenue.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Top%2020%20Customers%20by%20Lifetime%20Revenue.png" width="92%"> </p>
  
 ### 🟡 Query 6 — Repeat Purchase Frequency Buckets
 
@@ -697,7 +697,7 @@ FROM c;
 
 Visualization — Purchase Frequency Distribution
 
-<p align="center"> <img src="BI_Visuals/Customer%20Purchase%20Frequency%20Buckets.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Repeat%20Purchase%20Frequency%20Buckets.png" width="92%"> </p>
 
 ### 🟡 Query 7 — RFM Snapshot (Recency, Frequency, Monetary)
 
@@ -753,7 +753,8 @@ ORDER BY cohort_year, cohort_month;
 
 Visualization — Customer Acquisition Cohort Trend
 
-<p align="center"> <img src="BI_Visuals/Customer%20Cohort%20New%20Customers.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Customer%20Acquisition%20Cohort%20(First%20Purchase%20Month).JPG
+" width="92%"> </p>
 
 ### 🟡 Query 18 — Churn Proxy — Customers Inactive > 365 Days
 
