@@ -606,26 +606,25 @@ ORDER BY [Year], [Month];
 
 ---
 
-### Sales Performance — Key Insights (Evidence-Based)
+### 🧠 Sales Performance — Key Insights (Evidence-Based)
 
--Total recorded revenue is approximately $281.5M
-Revenue growth is strongest in 2023, followed by a decline trend through 2024 and 2025, indicating a post-peak normalization period.
+Total recorded revenue is approximately $281.5M
+Revenue peaks in 2023, followed by a gradual decline in 2024–2025, indicating a post-growth normalization period.
 
--Electronics contributes the highest share of portfolio revenue (~$135M)
-Electronics also shows the highest AOV ($5K+), confirming that this category is driven by fewer but higher-value premium orders.
+Electronics is the largest revenue contributor (~$135M)
+It also has the highest AOV ($5K+), meaning the category is driven by fewer but higher-value premium transactions.
 
--Sports, Fashion, and Books generate high order counts but lower AOV
-These categories function as volume drivers, contributing significantly to transaction count but moderately to revenue.
+Sports, Fashion, and Books generate high order volume but lower AOV
+These categories act as volume drivers, contributing strongly to transaction count but moderately to revenue share.
 
--Clear seasonal revenue spikes are visible across multiple years
-Peaks align with mid-year and year-end retail seasons, suggesting strong responsiveness to campaign windows and promotional cycles.
+Clear seasonal demand cycles are visible across multiple years
+Revenue spikes occur during mid-year and year-end periods, reflecting strong response to retail campaigns and promotions.
 
--2025 reflects early signs of demand softening
-Orders drop from 56K (2023 peak) → 46K (2024) → 33K (2025),
-pointing toward reduced purchasing frequency and possible retention risk.
+2025 indicates emerging demand slowdown signals
+Annual order volume declines from 56K (2023) → 46K (2024) → 33K (2025), suggesting reduced purchasing frequency and potential retention risk.
 
--AOV remains stable at ~$1.28K despite demand slowdown
-This indicates that the issue is volume-driven, not pricing or order value erosion.
+AOV remains stable at ~$1.28K despite order decline
+This confirms performance impact is volume-driven, not caused by discount erosion or ticket-size reduction.
 
 </div>
 
