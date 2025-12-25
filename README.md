@@ -34,6 +34,39 @@ The research focuses on deriving actionable insights across:
 
 Insights from this study are intended to support business leaders and operational teams in strategic planning, commercial decision-making, and performance optimization across the ecommerce lifecycle.
 
+---
+
+<table>
+<tr><td>
+
+### **Background and Problem Context**
+
+Given dataset represents operations from a **Ecommerce Retail Company** that sells consumer products across multiple categories and fulfillment channels. Over recent years, the company has experienced rapid digital growth, increasing competition from peer retailers, evolving customer purchasing behavior, and operational challenges related to delivery performance and returns.
+
+The business operates at national scale, serving a large and diverse customer base with:
+
+- high transaction volumes  
+- varying order frequency across customers  
+- mixed profitability across product categories  
+- seasonal fluctuations in demand  
+- discount-driven purchase behavior in certain segments  
+
+While the organization generates substantial data across sales, customers, fulfillment, and behavioral interactions, leaders face several analytics and decision-making challenges, including:
+
+- limited visibility into **revenue and order performance trends** over time  
+- difficulty identifying **profitable vs. low-margin product categories**  
+- uncertainty around the **financial impact of returns and refunds**  
+- lack of insight into **delivery delays and logistics bottlenecks**  
+- limited understanding of **customer repeat purchase behavior and churn risk**  
+- challenges in assessing **regional performance differences across states**  
+
+To address these challenges, this project applies a structured, data-driven analysis to evaluate historical performance, quantify operational risk areas, and generate insights that support **strategic planning, pricing decisions, retention strategy, and operational optimization**.
+
+</td></tr>
+</table>
+
+---
+
 </td></tr>
 </table>
 
