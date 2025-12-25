@@ -651,6 +651,7 @@ This confirms performance impact is volume-driven, not caused by discount erosio
 This section analyzes how customers behave across lifetime value, repeat purchase frequency, recency, churn risk, and acquisition cohorts.  
 The objective is to understand **customer retention strength, spending concentration, and lifecycle purchase behavior**.
 
+
 ---
 
 ### 🟡 Query 5 — Top 20 Customers by Lifetime Revenue
