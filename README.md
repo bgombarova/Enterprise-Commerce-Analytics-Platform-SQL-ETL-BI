@@ -755,39 +755,32 @@ Visualization — Customer Acquisition Cohort Trend
 
 <p align="center"> <img src="BI_Visuals/Customer%20Acquisition%20Cohort%20Trend.png" width="92%"> </p>
 
-### 🟡 Query 18 — Churn Proxy — Customers Inactive > 365 Days
 
-**Purpose** — Identify customers at churn-risk due to inactivity.
 
-**Business Question** 
-How many customers have not purchased in the last 12 months?
+Customer Behavior & Retention — Key Insights (Evidence-Based)
 
-WITH last AS (
-  SELECT 
-      Customer_ID, 
-      MAX(Order_Date) AS last_order
-  FROM dbo.sales
-  GROUP BY Customer_ID
-)
-SELECT 
-    COUNT(*) AS customers_in_churn_window
-FROM last
-WHERE DATEDIFF(DAY, last_order, GETDATE()) > 365;
-```
+Customer base is driven primarily by loyal & repeat buyers
+3,926 customers fall into the High-Frequency (20+ purchases) segment, indicating a strong cohort of habitual repeat shoppers forming the financial backbone of the business.
 
-Visualization — Inactive / Churn Risk Customers
+A small segment contributes disproportionately high lifetime value (Top-20 Customers insight)
+Highest value customers generate $400K–$900K lifetime revenue each, with AOV ranging $4K–$25K, confirming the presence of premium, price-insensitive buyers.
 
-<p align="center"> <img src="BI_Visuals/Churn%20Risk%20Customers.png" width="92%"> </p>
-Customer Retention — Key Insights (Evidence-Based)
+RFM distribution shows strong recency & purchasing activity
+Many top-value customers have recency between 1–20 days, meaning core customers remain actively engaged and currently purchasing.
 
-Revenue contribution is highly concentrated — a small group of top customers contributes a disproportionately large share of revenue.
+New customer acquisition is heavily front-loaded in early months
+Customer onboarding peaked in early 2021 (2152 in one cohort month) and steadily declined over time — indicating lower new-user acquisition in later periods.
 
-Majority of the customer base belongs to the low-frequency purchase group (1–5 orders), while a smaller loyal segment exhibits recurring engagement.
+Later acquisition cohorts show very small customer inflow
+Monthly new-customer counts fall to single digits after late 2023, signaling acquisition slowdown and possible market saturation.
 
-RFM results indicate a mix of recent active buyers and long-inactive dormant profiles, revealing retention and re-engagement opportunities.
+Repeat purchase strength offsets new-customer decline
+Despite falling acquisition, a large repeat-buyer population suggests strong customer stickiness and relationship value.
 
-Customer acquisition peaked during early lifecycle periods (2021 cohorts), followed by gradual slowdown in later periods.
+Medium-frequency customers represent upgrade opportunities
+1,067 customers sit in the 6–20 purchase group, representing the most viable group for upsell, loyalty, and targeted retention programs.
 
-The churn proxy confirms a large population of inactive customers (>365 days), highlighting measurable revenue leakage risk.
+Churn risk is emerging from inactive or aging cohorts
+Some high-value customers show recency gaps exceeding 90–120+ days, highlighting a segment requiring win-back & re-engagement strategies.
 
 </div> 
