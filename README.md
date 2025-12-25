@@ -757,30 +757,30 @@ Visualization — Customer Acquisition Cohort Trend
 
 
 
-Customer Behavior & Retention — Key Insights (Evidence-Based)
+### **Customer Behavior & Retention — Key Insights (Evidence-Based)**
 
-Customer base is driven primarily by loyal & repeat buyers
+-Customer base is driven primarily by loyal & repeat buyers.
 3,926 customers fall into the High-Frequency (20+ purchases) segment, indicating a strong cohort of habitual repeat shoppers forming the financial backbone of the business.
 
-A small segment contributes disproportionately high lifetime value (Top-20 Customers insight)
+-A small segment contributes disproportionately high lifetime value (Top-20 Customers insight).
 Highest value customers generate $400K–$900K lifetime revenue each, with AOV ranging $4K–$25K, confirming the presence of premium, price-insensitive buyers.
 
-RFM distribution shows strong recency & purchasing activity
+-RFM distribution shows strong recency & purchasing activity.
 Many top-value customers have recency between 1–20 days, meaning core customers remain actively engaged and currently purchasing.
 
-New customer acquisition is heavily front-loaded in early months
+-New customer acquisition is heavily front-loaded in early months.
 Customer onboarding peaked in early 2021 (2152 in one cohort month) and steadily declined over time — indicating lower new-user acquisition in later periods.
 
-Later acquisition cohorts show very small customer inflow
+-Later acquisition cohorts show very small customer inflow.
 Monthly new-customer counts fall to single digits after late 2023, signaling acquisition slowdown and possible market saturation.
 
-Repeat purchase strength offsets new-customer decline
+-Repeat purchase strength offsets new-customer decline.
 Despite falling acquisition, a large repeat-buyer population suggests strong customer stickiness and relationship value.
 
-Medium-frequency customers represent upgrade opportunities
+-Medium-frequency customers represent upgrade opportunities.
 1,067 customers sit in the 6–20 purchase group, representing the most viable group for upsell, loyalty, and targeted retention programs.
 
-Churn risk is emerging from inactive or aging cohorts
+-Churn risk is emerging from inactive or aging cohorts.
 Some high-value customers show recency gaps exceeding 90–120+ days, highlighting a segment requiring win-back & re-engagement strategies.
 
 </div> 
