@@ -172,7 +172,7 @@ The structured schema enables analysis across:
 - delivery performance and logistics speed  
 - return-risk and operational loss exposure  
 
-This curated dataset supports both **SQL-based analytical workflows** and **Power BI interactive dashboards** for executive-level decision-making.
+This curated dataset supports both **SQL-based analytical workflows** and **Tableau interactive dashboards** for executive-level decision-making.
 
 </td></tr>
 </table>
