@@ -138,7 +138,7 @@ The analytical model consists of the following core datasets:
 - Geographic attributes including state and city
 - Purchasing frequency and engagement characteristics
 
-** Product & Category (Dimension Table)**
+**Product & Category (Dimension Table)**
 - 8+ product categories
 - Category-level performance & profitability context
 
