@@ -314,3 +314,52 @@ All SQL-based analysis queries were executed on the **production fact & dimensio
 </table>
 
 ---
+
+<table width="90%" align="center">
+<tr><td>
+
+###  **Tools and Technologies**
+
+This project was implemented using a modern analytics technology stack combining data processing, validation, transformation, and visualization tools. Each platform was selected to support a structured and reliable end-to-end workflow.
+
+** Microsoft SQL Server (SSMS)**
+- Primary environment for data ingestion, staging, validation, and transformation  
+- Implementation of ETL workflow, production tables, constraints, and analytical SQL queries  
+- Enabled reliable star-schema modeling and referential-integrity enforcement
+
+** SQL (T-SQL)**
+- Used to design staging tables, cast and clean raw fields, and validate data quality  
+- Applied business logic transformations across customer, product, and sales datasets  
+- Powered analytical queries used for insight generation and reporting
+
+** Microsoft Excel**
+- Used during preprocessing and file structuring  
+- Source for base “Sales Master” dataset and CSV extraction files  
+- Assisted with result validation, summary exports, and supporting tables
+
+** Tableau**
+- Primary visualization and reporting layer  
+- Used to build executive-level dashboards for:
+  - revenue trends  
+  - category profitability  
+  - customer segmentation  
+  - returns & delivery insights  
+
+** GitHub**
+- Used as the central repository for:
+  - SQL scripts
+  - dataset documentation
+  - analytical queries
+  - project write-up and artifacts
+
+Together, these tools formed an integrated workflow that supported:
+
+- secure and auditable data processing  
+- repeatable ETL execution  
+- accurate analytical outputs  
+- clear and actionable insights for decision-makers  
+
+</td></tr>
+</table>
+
+---
