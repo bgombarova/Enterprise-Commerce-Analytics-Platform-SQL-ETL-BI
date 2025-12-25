@@ -908,16 +908,48 @@ ORDER BY Return_Loss DESC;
 Visualization — High Loss Return Outliers (Risk Flags)
 
 <p align="center"> <img src="BI_Visuals/High%20Loss%20Return%20Orders.png" width="92%"> </p>
-🧠 Product Performance — Key Insights (Evidence-Based)
 
-Electronics and Sports categories deliver the highest gross profit contribution, driven by strong revenue scale and moderate margins.
+### **Product Performance — Key Insights (Evidence-Based)**
 
-Beauty & Fashion categories show high transaction activity but lower margins, indicating price-sensitive demand behavior.
+-Beauty and Sports are the most profitable categories.
+Beauty delivers the highest gross margin (36.24%), followed by Sports (30.96%), indicating strong premium pricing power and efficient cost structure.
 
-Discounted transactions generate higher order volume but lower AOV, confirming reliance on promotions for conversion lift.
+-Electronics generates strong revenue but relies heavily on discounting
+Electronics shows solid profit margin (25.68%) but also has a high discounted-order dependency (66%), meaning performance is partially promotion-driven rather than organically demand-led.
 
-Return-linked financial leakage is concentrated in a small number of high-value orders, which materially impact profitability.
+-Food is the weakest-performing category financially
+Food records the lowest profit margin (4.38%), suggesting operational inefficiency, thin pricing, or cost leakage across logistics and fulfillment.
 
-High-loss return cases indicate potential issues such as product quality, expectation mismatch, or fraud-risk exceptions — suitable for operational review.
+-Books & Beauty experience significantly higher return rates
+Return rates exceed 13% in both categories, creating elevated refund exposure and avoidable financial leakage compared to other segments (≈3–4%).
+
+-Sports and Fashion act as high-volume commercial engines
+These categories generate strong order throughput with moderate return risk and stable margins — supporting portfolio stability and baseline transaction flow.
+
+-Discount dependency is structurally high across the business
+~66% of total orders come from discounted purchases, signaling:
+
+-revenue is promotion-sensitive
+
+-customer demand is price-elastic
+
+-long-term profitability may erode without discount control
+
+-Return losses are concentrated in a few product lines
+Books and Beauty contribute disproportionately to refund cost exposure, suggesting the need for:
+
+-product quality or sizing review
+
+-supplier performance assessment
+
+-packaging & delivery handling checks
+
+-Portfolio performance is driven by two value pillars
+
+-High-margin premium clusters → Beauty, Sports, Electronics
+
+-High-volume throughput clusters → Fashion, Sports, Toys
+
+-The mix indicates a balanced but discount-sensitive product ecosystem.
 
 </div>
