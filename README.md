@@ -590,7 +590,7 @@ ORDER BY revenue DESC;
 
 **Visualization — Revenue & Orders by Category**  
 <p align="center">
-  <img src=BI_Visuals/Revenue%20By%20Product%20Category.png" width="92%">
+  <img src="BI_Visuals/Revenue%20By%20Product%20Category.png" width="92%">
 </p>
 
 <p align="center">
