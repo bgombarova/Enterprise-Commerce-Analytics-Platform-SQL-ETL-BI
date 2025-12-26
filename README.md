@@ -925,6 +925,8 @@ High order throughput with stable return risk, supporting scale and transaction 
 
 > <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
+---
+
 ## 📡 Channel & Engagement Performance — SQL Insights + BI Visuals
 
 This section analyzes how customers engage across  
