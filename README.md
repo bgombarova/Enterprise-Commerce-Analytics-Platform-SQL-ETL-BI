@@ -1078,4 +1078,101 @@ Session buckets **30–35** minutes show the highest AOV **(~$1.5K+)**, confirmi
 Very **short sessions (~0–5 mins)** and **very long sessions (~40+ mins)** reflect lower AOV, likely representing bounce traffic and abandoned browsing rather than high-value activity.
 </div>
 
+---
 
+🚚 Delivery & CX Risk Analytics — SQL Insights + BI Visuals
+<div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
+
+This section evaluates how delivery speed and logistics performance impact
+customer experience, returns behavior, and satisfaction outcomes.
+
+-The objective is to identify:
+-delivery-driven financial risk,
+-customer dissatisfaction thresholds, and
+-fulfillment improvement opportunities.
+
+---
+
+
+### 🟡 Query 15 — Delivery Speed vs Returns (Logistics Risk)
+
+**Purpose** — Assess whether slower delivery speeds are associated with higher return likelihood.
+
+**Business Question**
+Do delayed shipments increase product return probability?
+
+```sql
+
+SELECT 
+    Delivery_Speed_Category,
+    COUNT(*) AS orders,
+    SUM(CASE WHEN Return_Flag = 1 THEN 1 ELSE 0 END) AS returns,
+    CAST(
+        100.0 * SUM(CASE WHEN Return_Flag = 1 THEN 1 ELSE 0 END) / COUNT(*)
+        AS DECIMAL(6,2)
+    ) AS return_rate_pct
+FROM dbo.sales
+GROUP BY Delivery_Speed_Category
+ORDER BY return_rate_pct DESC;
+```
+
+
+Visualization — Returns vs Delivery Speed
+
+<p align="center"> <img src="BI_Visuals/Delivery_Return_Risk.png" width="92%"> </p>
+
+---
+
+### 🟡 Query 16 — Delivery Time Buckets vs Customer Rating
+
+**Purpose** — Understand experience thresholds where satisfaction begins to decline.
+
+**Business Question**
+How does customer rating change across delivery-time ranges?
+
+```sql
+
+WITH delivery_buckets AS (
+    SELECT 
+        CASE 
+            WHEN Delivery_Time_Days BETWEEN 0 AND 3 THEN '0–3 Days'
+            WHEN Delivery_Time_Days BETWEEN 4 AND 7 THEN '4–7 Days'
+            WHEN Delivery_Time_Days BETWEEN 8 AND 10 THEN '8–10 Days'
+            WHEN Delivery_Time_Days BETWEEN 11 AND 15 THEN '11–15 Days'
+            WHEN Delivery_Time_Days BETWEEN 16 AND 20 THEN '16–20 Days'
+            ELSE '20+ Days'
+        END AS delivery_bucket,
+        Customer_Rating,
+        Delivery_Time_Days
+    FROM dbo.sales
+)
+SELECT 
+    delivery_bucket,
+    COUNT(*) AS orders,
+    AVG(Customer_Rating) AS avg_rating,
+    AVG(Delivery_Time_Days) AS avg_delivery_days
+FROM delivery_buckets
+GROUP BY delivery_bucket
+ORDER BY 
+    CASE 
+        WHEN delivery_bucket = '0–3 Days' THEN 1
+        WHEN delivery_bucket = '4–7 Days' THEN 2
+        WHEN delivery_bucket = '8–10 Days' THEN 3
+        WHEN delivery_bucket = '11–15 Days' THEN 4
+        WHEN delivery_bucket = '16–20 Days' THEN 5
+        ELSE 6
+    END;
+
+```
+
+Visualization — Delivery Time vs Customer Satisfaction
+
+<p align="center"> <img src="BI_Visuals/Delivery_Rating_Buckets.png" width="92%"> </p>
+
+---
+
+<p align="center"> <img src="BI_Visuals/Churn_Risk_Indicator.png" width="92%"> </p>
+🧠 Delivery & CX — Key Insights (Evidence-Based)
+
+
+</div>
