@@ -1172,6 +1172,39 @@ Visualization — Delivery Time vs Customer Satisfaction
 
 ---
 
+### Delivery & CX — Key Insights (Evidence-Based)
+
+**Order volume is concentrated in the 4–7 day delivery window**
+**81,871 orders (≈40% of total volume)** fall in this bucket, indicating this is the primary logistics SLA used across the network.
+
+**Ultra-fast (0–3 days) delivery accounts for 66,123 orders (~32%)**
+This suggests a strong dependency on express fulfillment capacity, which likely drives higher logistics cost exposure.
+
+**Deliveries exceeding 10 days form a visible long-tail risk segment**
+34,122 (8–10 days) + 25,668 (11–15 days) + 8,252 (16–20 days) + 3,964 (20+ days)
+→ **collectively 72,000+ delayed orders (~35% of total)**
+representing potential experience degradation & retention risk.
+
+**Slow deliveries show materially higher return probability**
+Return rate = 6.82% for Slow vs ≈2% for Fast & Medium
+confirming that delivery latency is a key CX failure driver, not product quality.
+
+**Ratings remain flat across delivery buckets (avg = 3.0)**
+This implies customers do not immediately reflect delivery pain in ratings,
+reinforcing that returns & churn signals are stronger risk indicators than ratings.
+
+**Most operational exposure sits between 8–15 days**
+59,790 orders in these buckets indicate a systemic mid-tier logistics bottleneck
+→ likely tied to regional routing or inventory transfer lag.
+
+**20+ day orders represent a critical escalation zone**
+3,964 cases constitute a CX incident-level segment requiring
+customer recovery workflows (refund credit / proactive outreach).
+
+
+
+
+
 ### 🧠 Delivery & CX — Key Insights (Evidence-Based)
 
 
