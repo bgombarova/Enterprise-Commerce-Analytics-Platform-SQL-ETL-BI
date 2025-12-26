@@ -913,3 +913,117 @@ High order throughput with stable return risk, supporting scale and transaction 
 66% of total orders are discount-led, confirming performance is promotion-sensitive across most categories.
 
 </div>
+
+> <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
+
+## 📡 Channel & Engagement Performance — SQL Insights + BI Visuals
+
+This section analyzes how customers engage across  
+**time-of-week demand, sales channels, device usage behavior, and browsing intent patterns.**
+
+The objective is to understand:
+
+- peak shopping windows  
+- which channels drive revenue & orders  
+- device-level engagement behavior  
+- whether longer session activity correlates with higher spending  
+
+---
+
+### 🟡 Query 12 — Orders & Revenue by Day of Week
+
+**Purpose** — Identify weekly demand cycles and operational load patterns.
+
+**Business Question**  
+On which days does order volume and spending peak across the week?
+
+```sql
+SELECT 
+    DayOfWeek, 
+    COUNT(*) AS orders, 
+    SUM(Total_Amount) AS revenue
+FROM dbo.sales
+GROUP BY DayOfWeek
+ORDER BY CASE DayOfWeek
+    WHEN 'Monday' THEN 1 
+    WHEN 'Tuesday' THEN 2 
+    WHEN 'Wednesday' THEN 3
+    WHEN 'Thursday' THEN 4 
+    WHEN 'Friday' THEN 5 
+    WHEN 'Saturday' THEN 6 
+    WHEN 'Sunday' THEN 7
+    ELSE 8 END;
+```
+
+**Visualization — Orders & Revenue by Weekday**
+
+<p align="center">
+  <img src="BI_Visuals/Orders%20by%20Day%20of%20Week.png" width="92%">
+</p>
+
+---
+
+**Visualization — Channel Contribution (Orders, Revenue, AOV)**
+
+<p align="center">
+  <img src="BI_Visuals/Sales%20Channel%20Performance.png" width="92%">
+</p>
+
+---
+
+### 🟡 Query 13 — Device Type vs Engagement Quality
+
+**Purpose** — Understand behavioral engagement differences across device platforms.
+
+**Business Question**  
+Do desktop, tablet, or mobile users show higher browsing depth or purchase intent?
+
+```sql
+SELECT 
+    Device_Type,
+    COUNT(*) AS orders,
+    AVG(Session_Duration_Minutes) AS avg_session_mins,
+    AVG(Pages_Viewed) AS avg_pages
+FROM dbo.sales
+GROUP BY Device_Type
+ORDER BY orders DESC;
+```
+
+**Visualization — Device Usage & Engagement Metrics**
+
+<p align="center">
+  <img src="BI_Visuals/Device%20Engagement%20Performance.png" width="92%">
+</p>
+
+---
+
+### 🟡 Query 14 — Session Duration vs Order Value (Intent Signal)
+
+**Purpose** — Analyze whether deeper browsing translates to higher spending.
+
+**Business Question**  
+Is there a positive relationship between session duration and order value?
+
+```sql
+SELECT
+    AVG(Session_Duration_Minutes) AS avg_session_mins,
+    AVG(Total_Amount) AS avg_order_value
+FROM dbo.sales
+GROUP BY CAST(Session_Duration_Minutes / 5 AS INT)  -- engagement buckets
+ORDER BY CAST(Session_Duration_Minutes / 5 AS INT);
+```
+
+**Visualization — Session Duration vs AOV Trend**
+
+<p align="center">
+  <img src="BI_Visuals/Session%20Duration%20vs%20AOV.png" width="92%">
+</p>
+
+---
+
+## Channel & Engagement — Key Insights (Evidence-Backed)
+
+*----
+
+</div>
+
