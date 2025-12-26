@@ -1204,3 +1204,77 @@ customer recovery workflows (refund credit / proactive outreach).
 
 
 </div>
+
+---
+
+### **🌍 Geographic Performance Insights — SQL Analytics + BI Visuals**
+<div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
+
+-- This section evaluates regional business performance using geography-level sales and profitability analytics.
+
+-- The objective is to understand state-level demand concentration, revenue contribution, and profit efficiency across operating regions.
+
+---
+
+### 🟡 Query 18 — Orders & Revenue Contribution by City & State
+
+**Purpose** — Identify high-revenue markets and regional demand concentration.
+
+**Business Question**
+Which cities and states generate the highest order volume and revenue contribution across the portfolio?
+
+```sql
+
+SELECT 
+    c.City,
+    c.State,
+    COUNT(*) AS orders,
+    SUM(s.Total_Amount) AS revenue
+FROM dbo.sales s
+JOIN dbo.customers c 
+    ON s.Customer_ID = c.Customer_ID
+GROUP BY c.City, c.State
+ORDER BY revenue DESC;
+```
+
+Visualization — Geographic Revenue Distribution (State & City Level)
+
+<p align="center"> <img src="BI_Visuals/State_City_Revenue_Map.png" width="92%"> </p> <p align="center"> <img src="BI_Visuals/Top_Cities_Revenue_Ranking.png" width="92%"> </p>
+
+---
+
+🟡 Query 23 — Profit Margin Performance by State
+
+**Purpose** — Assess geographic profitability and operating efficiency variation.
+
+**Business Question**
+Which states are highly profitable vs cost-intensive, based on gross profit margin contribution?
+
+```sql
+
+SELECT 
+    c.State,
+    SUM(s.Gross_Profit) AS gross_profit,
+    SUM(s.Total_Amount) AS revenue,
+    CAST(
+        100.0 * SUM(s.Gross_Profit) / SUM(s.Total_Amount)
+        AS DECIMAL(6,2)
+    ) AS profit_margin_pct
+FROM dbo.sales s
+JOIN dbo.customers c 
+    ON s.Customer_ID = c.Customer_ID
+GROUP BY c.State
+ORDER BY profit_margin_pct DESC;
+```
+
+Visualization — State-Level Profitability Ranking
+
+<p align="center"> <img src="BI_Visuals/State_Profit_Margin.png" width="92%"> </p>
+
+---
+🧠 Geographic Performance — Key Insights (Evidence-Based)
+
+
+
+</div>
+
