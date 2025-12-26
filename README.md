@@ -1239,11 +1239,14 @@ ORDER BY revenue DESC;
 
 Visualization — Geographic Revenue Distribution (State & City Level)
 
-<p align="center"> <img src="BI_Visuals/State_City_Revenue_Map.png" width="92%"> </p> 
+<p align="center"> <img src="BI_Visuals/Orders%20%26%20Revenue%20Contribution%20by%20City%20%26%20State%20Detailed%20Visual.png" width="92%"> </p> 
+
+<p align="center"> <img src="BI_Visuals/Revenue%20Contribution%20by%20City.png" width="92%"> </p> 
+
 
 ---
 
-### 🟡 Query 23 — Profit Margin Performance by State
+### 🟡 Query 19 — Profit Margin Performance by State
 
 **Purpose** — Assess geographic profitability and operating efficiency variation.
 
@@ -1269,7 +1272,7 @@ ORDER BY profit_margin_pct DESC;
 
 Visualization — State-Level Profitability Ranking
 
-<p align="center"> <img src="BI_Visuals/State_Profit_Margin.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Profit%20Margin%20Performance%20by%20State.png" width="92%"> </p>
 
 ---
 🧠 Geographic Performance — Key Insights (Evidence-Based)
