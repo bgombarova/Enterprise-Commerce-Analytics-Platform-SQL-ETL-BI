@@ -960,7 +960,7 @@ ORDER BY CASE DayOfWeek
 **Visualization — Orders & Revenue by Weekday**
 
 <p align="center">
-  <img src="BI_Visuals/Orders%20by%20Day%20of%20Week.png" width="92%">
+  <img src="BI_Visuals/Orders%20%26%20Revenue%20by%20Day%20of%20Week.png" width="92%">
 </p>
 
 ---
@@ -1012,8 +1012,9 @@ ORDER BY orders DESC;
 **Visualization — Device Usage & Engagement Metrics**
 
 <p align="center">
-  <img src="BI_Visuals/Device%20Engagement%20Performance.png" width="92%">
+  <img src="BI_Visuals/Device%20Type%20vs%20Engagement%20Quality.png" width="92%">
 </p>
+
 
 ---
 
@@ -1036,9 +1037,12 @@ ORDER BY CAST(Session_Duration_Minutes / 5 AS INT);
 **Visualization — Session Duration vs AOV Trend**
 
 <p align="center">
-  <img src="BI_Visuals/Session%20Duration%20vs%20AOV.png" width="92%">
+  <img src="BI_Visuals/Session%20Duration%20vs%20Order%20Value.png" width="92%">
 </p>
 
+<p align="center">
+  <img src="BI_Visuals/Session%20Duration%20vs%20Order%20Value%20scatter%20plot.png" width="92%">
+</p>
 ---
 
 ##  Channel & Engagement — Key Insights (Evidence-Backed)
