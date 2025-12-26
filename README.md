@@ -1276,7 +1276,7 @@ Visualization — State-Level Profitability Ranking
 
 ---
 
-### 🧠 Geographic Performance — Key Insights (Evidence-Based)
+### Geographic Performance — Key Insights (Evidence-Based)
 
 **Revenue leadership is highly concentrated in a few metro hubs.**
 New York City alone contributes **$72.86M** in revenue across **56.9K** orders, making it the single largest commercial market.
