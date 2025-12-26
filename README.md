@@ -1119,16 +1119,17 @@ ORDER BY return_rate_pct DESC;
 
 Visualization — Returns vs Delivery Speed
 
-<p align="center"> <img src="BI_Visuals/Delivery_Return_Risk.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Delivery%20Speed%20vs%20Returns%20(Logistics%20Risk).png" width="92%"> </p>
 
 ---
 
-### 🟡 Query 17 — Delivery Time Buckets vs Customer Rating
+### 🟡 Query 17 — Delivery Fulfillment Speed Buckets (Operational Exposure)
 
-**Purpose** — Understand experience thresholds where satisfaction begins to decline.
+**Purpose** — To evaluate how order volume is distributed across delivery speed ranges, identify slow-fulfillment exposure, and highlight operational risk in orders taking more than 10 days to deliver.
 
 **Business Question**
-How does customer rating change across delivery-time ranges?
+How many orders fall into each delivery time bucket, and what proportion of total orders are being fulfilled within acceptable delivery windows versus slow or delayed delivery windows?
+
 
 ```sql
 
@@ -1167,7 +1168,7 @@ ORDER BY
 
 Visualization — Delivery Time vs Customer Satisfaction
 
-<p align="center"> <img src="BI_Visuals/Delivery_Rating_Buckets.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Delivery%20Fulfillment%20Speed%20Buckets%20(Operational%20Exposure).png" width="92%"> </p>
 
 ---
 
