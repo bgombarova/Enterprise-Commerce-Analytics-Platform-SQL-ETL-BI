@@ -1086,10 +1086,10 @@ Very **short sessions (~0–5 mins)** and **very long sessions (~40+ mins)** ref
 This section evaluates how delivery speed and logistics performance impact
 customer experience, returns behavior, and satisfaction outcomes.
 
--The objective is to identify:
--delivery-driven financial risk,
--customer dissatisfaction thresholds, and
--fulfillment improvement opportunities.
+- The objective is to identify:
+- delivery-driven financial risk,
+- customer dissatisfaction thresholds, 
+- fulfillment improvement opportunities.
 
 ---
 
