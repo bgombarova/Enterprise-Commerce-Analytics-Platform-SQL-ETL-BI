@@ -1080,7 +1080,7 @@ Very **short sessions (~0–5 mins)** and **very long sessions (~40+ mins)** ref
 
 ---
 
-🚚 Delivery & CX Risk Analytics — SQL Insights + BI Visuals
+> ### 🚚 Delivery & CX Risk Analytics — SQL Insights + BI Visuals
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 This section evaluates how delivery speed and logistics performance impact
@@ -1094,7 +1094,7 @@ customer experience, returns behavior, and satisfaction outcomes.
 ---
 
 
-### 🟡 Query 15 — Delivery Speed vs Returns (Logistics Risk)
+### 🟡 Query 16 — Delivery Speed vs Returns (Logistics Risk)
 
 **Purpose** — Assess whether slower delivery speeds are associated with higher return likelihood.
 
@@ -1123,7 +1123,7 @@ Visualization — Returns vs Delivery Speed
 
 ---
 
-### 🟡 Query 16 — Delivery Time Buckets vs Customer Rating
+### 🟡 Query 17 — Delivery Time Buckets vs Customer Rating
 
 **Purpose** — Understand experience thresholds where satisfaction begins to decline.
 
@@ -1171,8 +1171,7 @@ Visualization — Delivery Time vs Customer Satisfaction
 
 ---
 
-<p align="center"> <img src="BI_Visuals/Churn_Risk_Indicator.png" width="92%"> </p>
-🧠 Delivery & CX — Key Insights (Evidence-Based)
+### 🧠 Delivery & CX — Key Insights (Evidence-Based)
 
 
 </div>
