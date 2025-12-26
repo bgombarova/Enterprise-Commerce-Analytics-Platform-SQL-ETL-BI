@@ -899,19 +899,19 @@ Visualization — Return Rate & Financial Loss Impact
 ### **Product Performance — Key Insights (Evidence-Based)**
 
 -Beauty is the most profitable category
-Highest margin 36.24%, but also among the highest return exposure (13%+) — indicates premium positioning but post-purchase dissatisfaction risk.
+**Highest margin 36.24%, but also among the highest return exposure (13%+)** — indicates premium positioning but post-purchase dissatisfaction risk.
 
 -Sports delivers strong unit economics
-High profit margin 30.96% with low return rate (~3–4%) — strongest risk-adjusted profitability contributor.
+High profit margin **30.96% with low return rate (~3–4%)** — strongest risk-adjusted profitability contributor.
 
 -Electronics is high-revenue but discount-dependent
-Margin 25.68% while 66% of orders are discounted, meaning revenue strength is promotion-driven rather than organic demand.
+Margin **25.68% while 66%** of orders are discounted, meaning revenue strength is promotion-driven rather than organic demand.
 
 -Food is the weakest financial performer
 Lowest margin 4.38% — signals price compression, high cost base, or operational inefficiency.
 
 -Returns are concentrated in Beauty & Books
-Both categories report >13% return rate vs portfolio baseline (~3–4%) — creates disproportionate refund and loss impact.
+Both categories report >**13% return rate vs portfolio baseline (~3–4%)** — creates disproportionate refund and loss impact.
 
 -Fashion, Toys & Sports act as volume engines
 High order throughput with stable return risk, supporting scale and transaction growth.
@@ -1166,7 +1166,7 @@ ORDER BY
 
 ```
 
-Visualization — Delivery Time vs Customer Satisfaction
+Visualization — Delivery Time vs Orders Volume
 
 <p align="center"> <img src="BI_Visuals/Delivery%20Fulfillment%20Speed%20Buckets%20(Operational%20Exposure).png" width="92%"> </p>
 
@@ -1181,8 +1181,8 @@ Visualization — Delivery Time vs Customer Satisfaction
 This suggests a strong dependency on express fulfillment capacity, which likely drives higher logistics cost exposure.
 
 **Deliveries exceeding 10 days form a visible long-tail risk segment**
-34,122 (8–10 days) + 25,668 (11–15 days) + 8,252 (16–20 days) + 3,964 (20+ days)
-→ **collectively 72,000+ delayed orders (~35% of total)**
+****34,122 (8–10 days) + 25,668 (11–15 days) + 8,252 (16–20 days) + 3,964 (20+ days)
+****→ **collectively 72,000+ delayed orders (~35% of total)**
 representing potential experience degradation & retention risk.
 
 **Slow deliveries show materially higher return probability**
@@ -1201,11 +1201,6 @@ reinforcing that returns & churn signals are stronger risk indicators than ratin
 3,964 cases constitute a CX incident-level segment requiring
 customer recovery workflows (refund credit / proactive outreach).
 
-
-
-
-
-### 🧠 Delivery & CX — Key Insights (Evidence-Based)
 
 
 </div>
