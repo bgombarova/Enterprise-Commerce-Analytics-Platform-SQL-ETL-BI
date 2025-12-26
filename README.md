@@ -1275,9 +1275,33 @@ Visualization — State-Level Profitability Ranking
 <p align="center"> <img src="BI_Visuals/Profit%20Margin%20Performance%20by%20State.png" width="92%"> </p>
 
 ---
-🧠 Geographic Performance — Key Insights (Evidence-Based)
 
+### 🧠 Geographic Performance — Key Insights (Evidence-Based)
 
+**Revenue leadership is highly concentrated in a few metro hubs.**
+New York City alone contributes **$72.86M** in revenue across **56.9K** orders, making it the single largest commercial market.
+Chicago **($38.14M)** and Los Angeles **($35.02M)** follow as secondary revenue centers, forming a Tier-1 urban performance cluster.
+
+**California appears as a dual-engine revenue driver at the city level.**
+Los Angeles ($35.0M) and San Francisco ($21.15M) together generate $56M+ revenue, reinforcing California’s position as a strategic premium consumer market.
+
+**Atlanta and Boston exhibit strong mid-market performance.**
+Despite lower order volumes vs Tier-1 cities, both deliver $21M–$30M revenue, indicating healthy demand density outside major population hubs.
+
+**Texas markets show balanced commercial strength rather than spiky concentration.**
+Dallas **($19.6M)** and Austin **($17.29M)** jointly contribute **$36.9M** revenue, suggesting distributed economic activity rather than single-city dominance.
+
+**West-coast secondary markets demonstrate healthy profitability positioning.**
+Seattle generates **$13.84M** revenue across 10.9K orders, aligning with higher-value but moderate-volume urban spending patterns.
+
+**State-level profitability leaders indicate operational & pricing advantages.**
+Massachusetts **(25.05%), Illinois (25.03%), and Texas (24.82%)** report the highest gross margin performance, suggesting
+— lower discount reliance,
+— stronger product mix, and
+— healthier cost-to-revenue leverage.
+
+**Lower-margin states still maintain strong revenue bases.**
+California (24.71%) and New York (24.75%) remain highly profitable despite volume intensity, meaning margin pressure is controlled and structurally resilient
 
 </div>
 
