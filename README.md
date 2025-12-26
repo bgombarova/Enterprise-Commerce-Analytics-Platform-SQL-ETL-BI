@@ -543,6 +543,7 @@ SELECT
 <p align="center">
   <img src="BI_Visuals/Platform%20KPI.png" width="92%">
 </p>
+
 ---
 
 ### 🟡 Query 2 — Total Revenue, Orders & AOV
@@ -619,6 +620,7 @@ ORDER BY [Year], [Month];
   <img src="BI_Visuals/Sales%20Time%20Series.png" width="92%">
 </p
 BI_Visuals/Sales%20Time%20Series.png
+
 ---
 
 ### **Sales Performance — Key Insights (Evidence-Based)**
@@ -676,6 +678,8 @@ OFFSET 0 ROWS FETCH NEXT 20 ROWS ONLY;
 
 Visualization — Top Revenue Customers 
 <p align="center"> <img src="BI_Visuals/Top%2020%20Customers%20by%20Lifetime%20Revenue.png" width="92%"> </p>
+
+---
  
 ### 🟡 Query 6 — Repeat Purchase Frequency Buckets
 
@@ -699,6 +703,8 @@ FROM c;
 Visualization — Purchase Frequency Distribution
 
 <p align="center"> <img src="BI_Visuals/Repeat%20Purchase%20Frequency%20Buckets.png" width="92%"> </p>
+
+---
 
 ### 🟡 Query 7 — RFM Snapshot (Recency, Frequency, Monetary)
 
@@ -729,6 +735,8 @@ Visualization — RFM Distribution Map
 
 <p align="center"> <img src="BI_Visuals/Recency%2C%20Frequency%2C%20Monetary.png" width="92%"> </p>
 
+---
+
 ### 🟡 Query 8 — Customer Acquisition Cohort (First Purchase Month)
 
 **Purpose** — Analyze customer onboarding trend across time.
@@ -756,7 +764,7 @@ Visualization — Customer Acquisition Cohort Trend
 
 <p align="center"> <img src="BI_Visuals/Customer%20Acquisition%20Cohort%20Trend.png" width="92%"> </p>
 
-
+---
 
 ### **Customer Behavior & Retention — Key Insights (Evidence-Based)**
 
@@ -788,16 +796,13 @@ Some high-value customers show recency gaps exceeding 90–120+ days, highlighti
 
 > <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
-
 ---
-
 
 > ###   **Product Performance & Profitability Analysis**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 This section analyzes product-level commercial performance, including profitability, discount dependency, and financial exposure from returns.
 Insights are derived using SQL queries and validated through Power BI visual analytics.
-
 
 ---
 
@@ -850,6 +855,7 @@ Visualization — Discounted vs Non-Discounted Order Performance
 <p align="center"> <img src="BI_Visuals/Discount%20Impact%20on%20Orders%20%26%20Revenue.png" width="92%"> </p>
 <p align="center"> <img src="BI_Visuals/Discount%20Impact%20on%20Orders%20%26%20Revenue%20Pie%20CHart%20Camparision.png" width="92%"> </p>
 
+---
 
 ### 🟡 Query 11 — Returns & Loss Impact — Product Category Level
 
@@ -888,6 +894,7 @@ Visualization — Return Rate & Financial Loss Impact
 <p align="center"> <img src="BI_Visuals/Returns%20%26%20Loss%20Impact%20—%20Product%20Category%20Level.png" width="92%"> </p>
 <p align="center"> <img src="BI_Visuals/Returns%20%26%20Loss%20Impact%20—%20Product%20Category%20Level%20Chart.png" width="92%"> </p>
 
+---
 
 ### **Product Performance — Key Insights (Evidence-Based)**
 
@@ -1039,6 +1046,7 @@ ORDER BY CAST(Session_Duration_Minutes / 5 AS INT);
 <p align="center">
   <img src="BI_Visuals/Session%20Duration%20vs%20Order%20Value%20scatter%20plot.png" width="92%">
 </p>
+
 ---
 
 ##  Channel & Engagement — Key Insights (Evidence-Backed)
