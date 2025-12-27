@@ -4,7 +4,7 @@
 <table width="90%" align="center">
 <tr><td>
 
-### **Abstract / Executive Summary**
+### **Executive Summary**
 
 This project presents an end-to-end analytics study of a **US-based ecommerce company** operating in the consumer retail domain. The dataset contains multi-year transactional, customer, fulfillment, and behavioral records used to evaluate business performance across revenue trends, order volume, profitability, discount impact, returns, delivery performance, and customer engagement.
 
@@ -76,7 +76,7 @@ To address these challenges, this project applies a structured, data-driven anal
 <table width="90%" align="center">
 <tr><td>
 
-### 🎯 **Objectives and Research Goals**
+### **Objectives and Research Goals**
 
 The primary objective of this project is to evaluate the historical performance of a US-based ecommerce business and generate data-driven insights that support strategic decision-making across revenue growth, profitability, customer retention, and operational efficiency.
 
@@ -516,7 +516,7 @@ Overall, this methodology ensured that insights were generated through a **disci
 > <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 
-> ### **Sales Performance Analysis — SQL Insights + BI Visuals**
+> ### **Sales Performance Analysis**
 
 This section summarizes overall ecommerce performance using SQL-driven metrics and Tableau / Power BI visual analytics.  
 The analysis covers platform scale, revenue performance, product contribution, and monthly revenue trends.
@@ -623,7 +623,7 @@ BI_Visuals/Sales%20Time%20Series.png
 
 ---
 
-### **Sales Performance — Key Insights (Evidence-Based)**
+### **Sales Performance**
 
 -Total recorded revenue is approximately $281.5M.
 Revenue peaks in 2023, followed by a gradual decline in 2024–2025, indicating a post-growth normalization period.
@@ -649,7 +649,7 @@ This confirms performance impact is volume-driven, not caused by discount erosio
  
 ---
 
->### **Customer Behavior & Retention Analytics — SQL Insights + BI Visuals**
+>### **Customer Behavior & Retention Analytics**
 
 
 This section analyzes how customers behave across lifetime value, repeat purchase frequency, recency, churn risk, and acquisition cohorts.  
@@ -766,7 +766,7 @@ Visualization — Customer Acquisition Cohort Trend
 
 ---
 
-### **Customer Behavior & Retention — Key Insights (Evidence-Based)**
+### **Customer Behavior & Retention — Key Insights**
 
 -Customer base is driven primarily by loyal & repeat buyers.
 3,926 customers fall into the High-Frequency (20+ purchases) segment, indicating a strong cohort of habitual repeat shoppers forming the financial backbone of the business.
@@ -896,7 +896,7 @@ Visualization — Return Rate & Financial Loss Impact
 
 ---
 
-### **Product Performance — Key Insights (Evidence-Based)**
+### **Product Performance — Key Insights**
 
 -Beauty is the most profitable category
 **Highest margin 36.24%, but also among the highest return exposure (13%+)** — indicates premium positioning but post-purchase dissatisfaction risk.
@@ -927,7 +927,7 @@ High order throughput with stable return risk, supporting scale and transaction 
 
 ---
 
-## 📡 Channel & Engagement Performance — SQL Insights + BI Visuals
+## **Channel & Engagement Performance**
 
 This section analyzes how customers engage across  
 **time-of-week demand, sales channels, device usage behavior, and browsing intent patterns.**
@@ -1051,7 +1051,7 @@ ORDER BY CAST(Session_Duration_Minutes / 5 AS INT);
 
 ---
 
-##  Channel & Engagement — Key Insights (Evidence-Backed)
+## ** Channel & Engagement — Key Insights**
 
 -Online & Mobile App channels dominate revenue contribution
 Online contributes **$123.7M (highest revenue)** followed by Mobile App at **$100.6M** — confirming that digital channels are the primary commercial drivers, while Retail Store and B2B remain secondary channels.
@@ -1080,7 +1080,7 @@ Very **short sessions (~0–5 mins)** and **very long sessions (~40+ mins)** ref
 
 ---
 
-> ### 🚚 Delivery & CX Risk Analytics — SQL Insights + BI Visuals
+> ### **Delivery & CX Risk Analytics**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 This section evaluates how delivery speed and logistics performance impact
@@ -1172,7 +1172,7 @@ Visualization — Delivery Time vs Orders Volume
 
 ---
 
-### Delivery & CX — Key Insights (Evidence-Based)
+### **Delivery & CX — Key Insights**
 
 **Order volume is concentrated in the 4–7 day delivery window**
 **81,871 orders (≈40% of total volume)** fall in this bucket, indicating this is the primary logistics SLA used across the network.
@@ -1207,7 +1207,7 @@ customer recovery workflows (refund credit / proactive outreach).
 
 ---
 
-### **🌍 Geographic Performance Insights — SQL Analytics + BI Visuals**
+### ** Geographic Performance Insights**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
  This section evaluates regional business performance using geography-level sales and profitability analytics.
@@ -1276,7 +1276,7 @@ Visualization — State-Level Profitability Ranking
 
 ---
 
-### Geographic Performance — Key Insights (Evidence-Based)
+### **Geographic Performance — Key Insights**
 
 **Revenue leadership is highly concentrated in a few metro hubs.**
 New York City alone contributes **$72.86M** in revenue across **56.9K** orders, making it the single largest commercial market.
