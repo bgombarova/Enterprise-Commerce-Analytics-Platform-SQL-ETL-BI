@@ -190,9 +190,9 @@ This curated dataset supports both **SQL-based analytical workflows** and **Tabl
 <table width="90%" align="center">
 <tr><td>
 
-### **Data Foundation & Analytical Dataset**
+### **Data Preparation & Analytical Dataset Workflow**
 
-The dataset was prepared to support decision-focused ecommerce analysis, not just reporting.
+The dataset was prepared to support decision-focused ecommerce analysis and reporting.
 The final analytical model was structured into three validated tables:
 
 **Customers** — acquisition, activity, repeat-purchase behavior
@@ -209,7 +209,7 @@ During preparation, the data was:
 
 - standardized into analysis-ready fields (dates, categories, KPIs)
 
--Only records that passed validation were promoted into the analytical layer.
+- Only records that passed validation were promoted into the analytical layer.
 
 The result is a clean, reliable dataset designed to answer real business questions, including:
 
