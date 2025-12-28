@@ -83,44 +83,26 @@ To address these challenges, this project applies a structured, data-driven anal
 
 The primary objective of this project is to evaluate the historical performance of a US-based ecommerce business and generate data-driven insights that support strategic decision-making across revenue growth, profitability, customer retention, and operational efficiency.
 
-The analysis is designed to answer key business questions across the following domains:
+The analysis focuses on four core decision areas:
 
-**1- Sales & Revenue Performance**
-- How have revenue, order volume, and AOV changed over time?
-- Which months, seasons, or years exhibit strong or weak performance trends?
+**Sales & Revenue Performance** — understanding demand trends, order growth, and AOV movement over time
 
-**2- Customer Engagement & Retention**
-- Which customers generate the highest lifetime revenue?
-- What proportion of customers are repeat vs. one-time buyers?
-- Are there signs of churn based on inactivity duration?
+**Customer Value & Retention** — identifying high-value, repeat, and at-risk customer segments
 
-**3- Product & Category Profitability**
-- Which product categories contribute the most revenue and gross profit?
-- Which categories have lower margins or higher refund exposure?
+**Product & Profitability Dynamics** — assessing which categories drive revenue vs. margin contribution
 
-**4- Discount & Pricing Impact**
-- How do discounted orders compare to non-discounted orders?
-- Does discounting increase order frequency or reduce profitability?
+**Operational & Experience Risk** — analyzing discounts, returns, and delivery performance exposure
 
-**5- Returns & Operational Risk**
-- What is the overall return rate and financial loss due to returns?
-- Do slower deliveries increase return likelihood?
+The research objective is not only to describe what happened in the data, but to surface patterns, risks, and opportunities that leadership teams can use to:
 
-**6- Logistics & Delivery Performance**
-- Which delivery speed categories perform best?
-- How delivery delays impact customer behavior and satisfaction?
+- strengthen pricing & promotion strategy
 
-**7- Geographic Market Insights**
-- Which states generate the highest order volume and revenue?
-- Which locations show higher return or delivery issue risk?
+- improve retention and repeat-purchase behavior
 
-The research goal is to transform raw transactional data into actionable insights that help leadership strengthen:
+- optimize fulfillment and delivery experience
 
-- pricing and promotion strategy  
-- retention and loyalty programs  
-- fulfillment and delivery performance  
-- revenue growth and profitability optimization  
-
+- support sustainable revenue and profitability growth
+- 
 </td></tr>
 </table>
 
