@@ -310,11 +310,12 @@ BI_Visuals/Sales%20Time%20Series.png
 
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
-
-
 ---
 
->### **Customer Behavior & Retention Analytics**
+<table width="90%" align="center">
+<tr><td>
+
+>### **Customer Behavior & Retention — Key Insights**
 
 
 This section analyzes how customers behave across lifetime value, repeat purchase frequency, recency, churn risk, and acquisition cohorts.  
@@ -322,140 +323,93 @@ The objective is to understand **customer retention strength, spending concentra
 
 ---
 
-### 🟡 Query 5 — Top 20 Customers by Lifetime Revenue
+**Key Findings** 
 
-**Purpose** — Identify high-value customers driving major revenue contribution.
+The platform is primarily sustained by **loyal repeat customers**
 
-**Business Question**  
-Which customers contribute the highest lifetime sales value?
+- **3,926 customers** fall in the **High-Frequency (20+ purchases)** segment
 
-```sql
-SELECT 
-    s.Customer_ID,
-    SUM(s.Total_Amount) AS lifetime_revenue,
-    COUNT(*) AS orders,
-    AVG(s.Total_Amount) AS avg_order_value
-FROM dbo.sales s
-GROUP BY s.Customer_ID
-ORDER BY lifetime_revenue DESC
-OFFSET 0 ROWS FETCH NEXT 20 ROWS ONLY;
-```
+- These buyers form the **financial backbone of recurring revenue**
 
-Visualization — Top Revenue Customers 
-<p align="center"> <img src="BI_Visuals/Top%2020%20Customers%20by%20Lifetime%20Revenue.png" width="92%"> </p>
+Mid-frequency customers represent the **largest growth-conversion opportunity**
+
+- **1,067 customers** sit in the **6–20 purchase range**
+
+- They demonstrate consistent activity but have not yet reached **loyalty tier status**
+
+A small set of customers contributes disproportionately high lifetime value
+
+- Top customers generate** $400K–$900K+** lifetime revenue each
+
+- AOV ranges between **$4K–$25K,** indicating premium buyers
+
+Recency patterns suggest core customers remain active
+
+- Many top-value customers purchased within **1–20 days**
+
+- However, a subset shows **90–120+ day inactivity gaps**, signaling churn exposure
+
+New-customer acquisition has slowed over time
+
+- Initial cohorts show strong onboarding in early **2021**
+
+- Later months drop to **double-digit → single-digit inflow**
+
+- Growth is increasingly driven by **retention rather than acquisition**
 
 ---
  
-### 🟡 Query 6 — Repeat Purchase Frequency Buckets
+**Repeat Purchase Distribution — Frequency Buckets**
 
-**Purpose** — Segment customers based on repeat purchase strength.
-
-**Business Question** 
-How many customers purchase rarely, occasionally, or frequently?
-```sql
-WITH c AS (
-    SELECT Customer_ID, COUNT(*) AS orders
-    FROM dbo.sales
-    GROUP BY Customer_ID
-)
-SELECT 
-    SUM(CASE WHEN orders BETWEEN 1 AND 5 THEN 1 ELSE 0 END) AS low_freq_customers,
-    SUM(CASE WHEN orders BETWEEN 6 AND 20 THEN 1 ELSE 0 END) AS medium_freq_customers,
-    SUM(CASE WHEN orders > 20 THEN 1 ELSE 0 END) AS high_freq_customers
-FROM c;
-```
-
-Visualization — Purchase Frequency Distribution
 
 <p align="center"> <img src="BI_Visuals/Repeat%20Purchase%20Frequency%20Buckets.png" width="92%"> </p>
 
 ---
 
-### 🟡 Query 7 — RFM Snapshot (Recency, Frequency, Monetary)
-
-**Purpose** — Assess how recently and how often customers purchase, and how much they spend.
-
-**Business Question** 
-Which customers are recent active buyers vs dormant customers?
-```sql
-WITH last AS (
-  SELECT 
-      Customer_ID,
-      MAX(Order_Date) AS last_order_date,
-      COUNT(*) AS frequency,
-      SUM(Total_Amount) AS monetary
-  FROM dbo.sales
-  GROUP BY Customer_ID
-)
-SELECT 
-    Customer_ID,
-    DATEDIFF(DAY, last_order_date, GETDATE()) AS recency_days,
-    frequency,
-    monetary
-FROM last
-ORDER BY monetary DESC;
-```
-
-Visualization — RFM Distribution Map
-
-<p align="center"> <img src="BI_Visuals/Recency%2C%20Frequency%2C%20Monetary.png" width="92%"> </p>
-
----
-
-### 🟡 Query 8 — Customer Acquisition Cohort (First Purchase Month)
-
-**Purpose** — Analyze customer onboarding trend across time.
-
-**Business Question** 
-In which months did most customers join the platform?
-```sql
-WITH first_buy AS (
-  SELECT 
-      Customer_ID, 
-      MIN(Order_Date) AS first_buy
-  FROM dbo.sales
-  GROUP BY Customer_ID
-)
-SELECT 
-    YEAR(first_buy) AS cohort_year, 
-    MONTH(first_buy) AS cohort_month, 
-    COUNT(*) AS new_customers
-FROM first_buy
-GROUP BY YEAR(first_buy), MONTH(first_buy)
-ORDER BY cohort_year, cohort_month;
-```
-
-Visualization — Customer Acquisition Cohort Trend
+**Customer Acquisition Cohort Trend — First Purchase Month**
 
 <p align="center"> <img src="BI_Visuals/Customer%20Acquisition%20Cohort%20Trend.png" width="92%"> </p>
 
 ---
 
-### **Customer Behavior & Retention — Key Insights**
+**Business Implications**
 
--Customer base is driven primarily by loyal & repeat buyers.
-3,926 customers fall into the High-Frequency (20+ purchases) segment, indicating a strong cohort of habitual repeat shoppers forming the financial backbone of the business.
+- Revenue stability depends heavily on repeat-buyer retention
 
--A small segment contributes disproportionately high lifetime value (Top-20 Customers insight).
-Highest value customers generate $400K–$900K lifetime revenue each, with AOV ranging $4K–$25K, confirming the presence of premium, price-insensitive buyers.
+- The business is now retention-led rather than acquisition-led
 
--RFM distribution shows strong recency & purchasing activity.
-Many top-value customers have recency between 1–20 days, meaning core customers remain actively engaged and currently purchasing.
+- Medium-frequency customers represent the highest-leverage expansion tier
 
--New customer acquisition is heavily front-loaded in early months.
-Customer onboarding peaked in early 2021 (2152 in one cohort month) and steadily declined over time — indicating lower new-user acquisition in later periods.
+- Ultra-high-value customers require special treatment and churn monitoring
 
--Later acquisition cohorts show very small customer inflow.
-Monthly new-customer counts fall to single digits after late 2023, signaling acquisition slowdown and possible market saturation.
+- Acquisition slowdown indicates:
 
--Repeat purchase strength offsets new-customer decline.
-Despite falling acquisition, a large repeat-buyer population suggests strong customer stickiness and relationship value.
+-- possible channel under-investment, or
 
--Medium-frequency customers represent upgrade opportunities.
-1,067 customers sit in the 6–20 purchase group, representing the most viable group for upsell, loyalty, and targeted retention programs.
+-- market saturation in existing segments
 
--Churn risk is emerging from inactive or aging cohorts.
-Some high-value customers show recency gaps exceeding 90–120+ days, highlighting a segment requiring win-back & re-engagement strategies.
+---
+
+**Recommended Actions**
+
+**Short-Term (Retention Focus)**
+
+- Design loyalty-upgrade program for 6–20 order segment
+
+- Prioritize VIP relationship management for top-value customers
+
+- Trigger recency-based re-engagement campaigns for inactive high-value users
+
+**Medium-Term (Growth Pipeline)**
+
+- Reassess acquisition channel performance & spend allocation
+
+- Test referral + win-back incentives
+
+- Evaluate new-audience targeting & market segmentation
+
+</td></tr>
+</table>
 
 </div> 
 
