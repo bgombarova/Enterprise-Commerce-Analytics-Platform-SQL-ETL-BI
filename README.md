@@ -280,8 +280,7 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 BI_Visuals/Sales%20Time%20Series.png
 
 ---
-<table width="90%" align="center">
-<tr><td>
+
 
 ### Strategic Implications
 
@@ -297,8 +296,7 @@ BI_Visuals/Sales%20Time%20Series.png
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ### Recommended Business Actions
 
@@ -317,8 +315,6 @@ BI_Visuals/Sales%20Time%20Series.png
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 
- </td></tr>
-</table>
 
 ---
 
