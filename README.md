@@ -568,6 +568,8 @@ inventory routing or regional hub lag issues.
 
 - CX degradation is quietly accumulating in mid-tier shipping lanes
 
+---
+
 **Recommended Actions**
 
 **1) Prioritize shipping optimization for 8–15 day deliveries**
