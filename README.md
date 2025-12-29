@@ -216,13 +216,13 @@ This project was implemented using a modern analytics technology stack combining
 > <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 
-> ### *Sales Performance — Business Insights+++**
+> ### **Sales Performance — Business Insights**
 
 This section evaluates revenue trends, order volumes, and product contribution patterns to understand business growth dynamics and commercial performance drivers.
 
 ---
 
-### **Sales Performance**
+### **Key Findings**
 
 -**Total recorded revenue is approximately $281.5M.**
 Revenue peaks in 2023, followed by a gradual decline in 2024–2025, indicating a post-growth normalization period.
@@ -275,7 +275,6 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 BI_Visuals/Sales%20Time%20Series.png
 
 ---
-
 
 ### Strategic Implications
 
