@@ -608,6 +608,9 @@ inventory routing or regional hub lag issues.
 
 ---
 
+<table width="90%" align="center">
+<tr><td>
+
 ### **Geographic Performance Insights**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
@@ -656,9 +659,47 @@ California (24.71%) and New York (24.75%) remain highly profitable despite volum
 
 ---
 
-### **Geographic Performance — Key Insights**
+**Business Implications**
 
+- Revenue risk is **geographically concentrated** — underperformance in 2–3 cities would materially impact portfolio results.
 
+- California and New York represent premium but cost-sensitive growth territories — requiring margin-aware scaling.
+
+- Texas growth is **broad and stable**, making it a strong candidate for operational expansion.
+
+- High-margin states signal **pricing power + healthier customer economics** and should guide future go-to-market focus.
+
+- Mid-tier markets (Atlanta / Boston / Seattle) show untapped profitability upside relative to volume.
+
+---
+
+**Recommended Actions**
+
+**1) Double-down growth programs in Tier-1 revenue hubs**
+
+- New York, Chicago, Los Angeles
+ targeted retention + premium assortment expansion
+
+**2) Scale marketing + fulfillment investments in high-margin states**
+
+- Massachusetts, Illinois, Texas
+ improve contribution without discount dependency
+
+**3) Run expansion pilots in strong mid-tier markets**
+
+- Atlanta, Boston, Seattle
+ test regional assortment + logistics optimization
+
+**4) Monitor discount elasticity in California & New York**
+
+- Protect margins while scaling volume growth
+
+**5) Develop a geographic risk-diversification plan**
+
+- Reduce over-dependence on top 3 cities
+
+  </td></tr>
+</table>
 
 </div>
 
