@@ -242,8 +242,7 @@ Annual order volume declines from 56K (2023) → 46K (2024) → 33K (2025), sugg
 -**AOV remains stable (~$1.28K) despite falling volume.**
 This indicate drop in performance is volume-driven, rahter than caused by discount pressure or ticket-size erosion.
 
-</td></tr>
-</table>
+
 
 ---
 
@@ -276,8 +275,6 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 BI_Visuals/Sales%20Time%20Series.png
 
 ---
-<table width="90%" align="center">
-<tr><td>
 
 
 ### Strategic Implications
