@@ -287,7 +287,7 @@ BI_Visuals/Sales%20Time%20Series.png
 <table width="90%" align="center">
 <tr><td>
 
->### **Customer Behavior & Retention — Key Insights**
+>### **Customer Behavior & Retention — Business Insights**
 
 
 This section analyzes how customers behave across lifetime value, repeat purchase frequency, recency, churn risk, and acquisition cohorts.  
@@ -392,7 +392,7 @@ New-customer acquisition has slowed over time
 <table width="90%" align="center">
 <tr><td>
 
-> ###   **Product Performance & Profitability Analysis**
+> ###   **Product Performance - Business Insights**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 This section analyzes product-level commercial performance, including profitability, discount dependency, and financial exposure from returns.
@@ -483,7 +483,7 @@ with 66% of all transactions occurring under discounts, confirming revenue relia
 <table width="90%" align="center">
 <tr><td>
 
-> ### **Delivery & Customer Experience Business  Insights**
+> ### **Delivery & Customer Experience - Business Insights**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 This section evaluates how delivery speed and logistics performance impact
@@ -583,7 +583,7 @@ inventory routing or regional hub lag issues.
 <table width="90%" align="center">
 <tr><td>
 
-> ### **Geographic Performance Insights**
+> ### **Geographic Performance - Business Insights**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
  This section evaluates regional business performance using geography-level sales and profitability analytics.
