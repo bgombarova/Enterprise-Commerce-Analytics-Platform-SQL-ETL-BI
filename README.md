@@ -112,41 +112,21 @@ The research objective is not only to describe what happened in the data, but to
 <table width="90%" align="center">
 <tr><td>
 
-###  **Dataset Description**
+### **Dataset Overview**
 
-The dataset contains multi-year ecommerce transaction records and supporting dimensional attributes covering operations from **2021 to 2025**. The data was validated in Excel, staged in SQL Server through staging tables, transformed into production tables, and analyzed using SQL queries and Tableau visual dashboards.
+This analysis is based on a multi-year ecommerce transaction dataset covering 2021–2025, containing customer activity, product sales, delivery performance, discounts, and returns across multiple US states.
 
-The analytical model consists of the following core datasets:
+The dataset represents a mid-to-large scale retail business and supports trend, profitability, retention, and operational risk analysis.
 
-**Customers (Dimension Table)**
-- 5,000+ unique customers
-- Geographic attributes including state and city
-- Purchasing frequency and engagement characteristics
+**Data Scope & Business Coverage**
 
-**Product & Category (Dimension Table)**
-- 8+ product categories
-- Category-level performance & profitability context
-
-**Sales Transactions (Fact Table)**
-- 220,000+ transaction records
-- Order ID, order date, quantity and revenue
-- Total amount & discount amount
-- Gross profit
-- Delivery time & delivery speed category
-- Return flag & financial return loss
-- Behavioral attributes such as session duration
-
-**Geographic Coverage**
-- Orders generated across **7+ US states**
-
-**Time Coverage**
-- Historical period: **2021 – 2025**
-- Monthly and yearly aggregation supported
-
-**Business Scale Summary**
-- 220,000+ sales records
 - 5,000+ customers
-- **$281M+ total recorded revenue**
+
+- 220,000+ sales transactions
+
+- $281M+ recorded revenue
+
+- Activity generated across multiple US states & metro markets
 
 </td></tr>
 </table>
