@@ -222,7 +222,7 @@ This section evaluates revenue trends, order volumes, and product contribution p
 
 ---
 
-### **Key Findings**
+**Key Findings**
 
 -**Total recorded revenue is approximately $281.5M.**
 Revenue peaks in 2023, followed by a gradual decline in 2024–2025, indicating a post-growth normalization period.
@@ -246,7 +246,7 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 
 ---
 
-### Sales Excutive KPI's
+**Sales Excutive KPI's**
 
 <p align="center">
   <img src="BI_Visuals/Revenue%20KPI.png" width="92%">
@@ -258,7 +258,7 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 
 ---
 
-### Revenue by Product Category
+ **Revenue by Product Category**
 
 <p align="center">
   <img src="BI_Visuals/Revenue%20By%20Product%20Category.png" width="92%">
@@ -266,9 +266,8 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 
 ---
 
-### Revenue Time-Series Trend (Multi-Year)
+**Revenue Time-Series Trend (Multi-Year)**
 
-**Visualization — Monthly Revenue Trend**  
 <p align="center">
   <img src="BI_Visuals/Sales%20Time%20Series.png" width="92%">
 </p
@@ -276,7 +275,7 @@ BI_Visuals/Sales%20Time%20Series.png
 
 ---
 
-### Strategic Implications
+**Strategic Implications**
 
 - Growth now depends more on repeat purchase retention than new acquisition
 
@@ -290,7 +289,7 @@ BI_Visuals/Sales%20Time%20Series.png
 
 ---
 
-### Recommended Business Actions
+**Recommended Business Actions**
 
 - Launch high-value Electronics loyalty bundles to stabilize premium revenue
 
