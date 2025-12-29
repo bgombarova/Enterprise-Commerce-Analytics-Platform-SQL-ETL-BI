@@ -247,7 +247,7 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 
 ---
 
-### 🟡  — Sales Excutive KPI's
+### Sales Excutive KPI's
 
 <p align="center">
   <img src="BI_Visuals/Revenue%20KPI.png" width="92%">
@@ -265,10 +265,6 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
   <img src="BI_Visuals/Revenue%20By%20Product%20Category.png" width="92%">
 </p>
 
-<p align="center">
-  <img src="BI_Visuals/Order%20%2C%20AOV%20by%20Product%20Category.png" width="92%">
-</p
- 
 ---
 
 ### Revenue Time-Series Trend (Multi-Year)
@@ -280,6 +276,8 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 BI_Visuals/Sales%20Time%20Series.png
 
 ---
+<table width="90%" align="center">
+<tr><td>
 
 
 ### Strategic Implications
@@ -296,8 +294,6 @@ BI_Visuals/Sales%20Time%20Series.png
 
 ---
 
-
-
 ### Recommended Business Actions
 
 - Launch high-value Electronics loyalty bundles to stabilize premium revenue
@@ -309,6 +305,11 @@ BI_Visuals/Sales%20Time%20Series.png
 - Expand seasonal promotion windows into pre-event warm-up periods
 
 - Track early churn indicators through repeat purchase frequency monitoring
+
+
+
+</td></tr>
+</table>
   
 </div>
 
