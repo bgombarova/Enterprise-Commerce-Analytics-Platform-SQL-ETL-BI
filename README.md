@@ -511,7 +511,7 @@ with 66% of all transactions occurring under discounts, confirming revenue relia
 <table width="90%" align="center">
 <tr><td>
 
-> ### **Delivery & CX Risk Analytics**
+> ### **Delivery & Customer Experience Business  Insights**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 This section evaluates how delivery speed and logistics performance impact
@@ -524,7 +524,7 @@ customer experience, returns behavior, and satisfaction outcomes.
 
 ---
 
-### **Delivery & CX — Key Insights**
+ **Key Findings**
 
 - **4–7 day delivery is the dominant fulfillment window**
 81,871 orders (~40% of total) sit in this SLA — indicating it is the operational baseline for most shipments.
@@ -535,7 +535,7 @@ customer experience, returns behavior, and satisfaction outcomes.
 - **8–15 day deliveries form the largest CX risk band**
 **34,122 (8–10 days)** + **25,668 (11–15 days)** →** 59,790** delayed orders **(~29%)**.
 
-- 20+ day deliveries are small in volume but high-risk
+- **20+ day deliveries are small in volume but high-risk**
 3,964 orders fall into critical delay territory — likely escalation / refund candidates.
 
 - **Slow delivery significantly increases return probability**
@@ -545,6 +545,8 @@ delivery latency is a stronger risk driver than product issues.
 - **Mid-tier shipping appears to be a systemic bottleneck**
 8–15 day segment concentration suggests
 inventory routing or regional hub lag issues.
+
+---
 
 **Return Rate % by Delivery Speed Category**
 
@@ -570,31 +572,31 @@ inventory routing or regional hub lag issues.
 
 - **Prioritize shipping optimization for 8–15 day deliveries**
 
-reroute inventory through faster hubs
+1) reroute inventory through faster hubs
 
-review regional carrier performance
+2) review regional carrier performance
 
-improve inter-warehouse transfer timing
+3) improve inter-warehouse transfer timing
 
 - **Flag 20+ day orders for proactive recovery workflows**
 
-auto-refund credit / apology voucher
+1) auto-refund credit / apology voucher
 
-CX outreach triggers
+2) CX outreach triggers
 
 - **Protect margins by reducing reliance on express shipping**
 
-shift eligible volume to 4–7 day SLA where possible
+1) shift eligible volume to 4–7 day SLA where possible
 
 - **Introduce delivery-time transparency in checkout**
 
-manage expectations
+1) manage expectations
 
-reduce returns driven by delay frustration
+2) reduce returns driven by delay frustration
 
 - **Build a delivery-delay risk alert KPI**
 
-monitor orders crossing 8-day threshold in near-real-time
+1) monitor orders crossing 8-day threshold in near-real-time
 
 
 </td></tr>
