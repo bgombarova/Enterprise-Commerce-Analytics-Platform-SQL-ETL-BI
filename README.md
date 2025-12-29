@@ -214,52 +214,36 @@ This project was implemented using a modern analytics technology stack combining
 > <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 
-> ### **Sales Performance Analysis**
+> ### *Sales Performance — Business Insights+++**
 
-This section summarizes overall ecommerce performance using SQL-driven metrics and Tableau / Power BI visual analytics.  
-The analysis covers platform scale, revenue performance, product contribution, and monthly revenue trends.
-
----
-
-### 🟡 Query 1 — Platform Overview (Customers, Products, Orders)
-
-**Purpose** — Understand business scale and dataset footprint.
-
-**Business Question**  
-How many customers, product categories, and total sales transactions exist in the portfolio?
-
-**SQL Logic Used**
-
-```sql
-SELECT 
-  (SELECT COUNT(*) FROM dbo.customers) AS customers_count,
-  (SELECT COUNT(*) FROM dbo.product_category) AS product_categories_count,
-  (SELECT COUNT(*) FROM dbo.sales) AS sales_count;
-```
-
-**Visualization — Portfolio Summary KPIs**  
-<p align="center">
-  <img src="BI_Visuals/Platform%20KPI.png" width="92%">
-</p>
+This section evaluates revenue trends, order volumes, and product contribution patterns to understand business growth dynamics and commercial performance drivers.
 
 ---
 
-### 🟡 Query 2 — Total Revenue, Orders & AOV
+### **Sales Performance**
 
-**Purpose** — Measure overall financial performance.
+-**Total recorded revenue is approximately $281.5M.**
+Revenue peaks in 2023, followed by a gradual decline in 2024–2025, indicating a post-growth normalization period.
 
-**Business Question**  
-What is the total revenue generated, transaction volume, and average order spend?
+-**Electronics is the largest revenue contributor (~$135M)**.
+It also has the highest AOV ($5K+), meaning the category is driven by fewer but higher-value premium transactions.
 
-```sql
-SELECT 
-  SUM(Total_Amount) AS Total_revenue,
-  AVG(Total_Amount) AS Avg_order_value,
-  COUNT(*) AS orders
-FROM dbo.sales;
-```
+-**Sports, Fashion, and Books generate high order volume but lower AOV.**
+These categories act as volume drivers, contributing strongly to transaction count but moderately to revenue share.
 
-**Visualization — Executive KPI Dashboard**  
+-**Clear seasonal demand cycles are visible across multiple years.**
+Revenue spikes occur during mid-year and year-end periods, reflecting strong response to retail campaigns and promotions.
+
+-**2025 indicates emerging demand slowdown signals.**
+Annual order volume declines from 56K (2023) → 46K (2024) → 33K (2025), suggesting reduced purchasing frequency and potential retention risk.
+
+-**AOV remains stable (~$1.28K) despite falling volume.**
+This indicate drop in performance is volume-driven, rahter than caused by discount pressure or ticket-size erosion.
+
+---
+
+### 🟡  — Sales Excutive KPI's
+
 <p align="center">
   <img src="BI_Visuals/Revenue%20KPI.png" width="92%">
 </p>
@@ -270,24 +254,8 @@ FROM dbo.sales;
 
 ---
 
-### 🟡 Query 3 — Revenue & AOV by Product Category
+### Revenue by Product Category
 
-**Purpose** — Identify commercial contribution by product segment.
-
-```sql
-SELECT 
-    p.Product_Category, 
-    COUNT(*) AS orders,
-    SUM(s.Total_Amount) AS revenue,
-    AVG(s.Total_Amount) AS aov
-FROM dbo.sales s
-JOIN dbo.product_category p 
-    ON s.Product_Category = p.Product_Category
-GROUP BY p.Product_Category
-ORDER BY revenue DESC;
-```
-
-**Visualization — Revenue & Orders by Category**  
 <p align="center">
   <img src="BI_Visuals/Revenue%20By%20Product%20Category.png" width="92%">
 </p>
@@ -298,20 +266,7 @@ ORDER BY revenue DESC;
  
 ---
 
-### 🟡 Query 4 — Monthly Revenue Trend (Time Series)
-
-**Purpose** — Track revenue cycles and seasonality trends.
-
-```sql
-SELECT 
-    [Year], 
-    [Month], 
-    CONCAT([Year], '-', RIGHT('0'+CAST([Month] AS VARCHAR(2)),2)) AS year_month,
-    SUM(Total_Amount) AS revenue
-FROM dbo.sales
-GROUP BY [Year], [Month]
-ORDER BY [Year], [Month];
-```
+### Revenue Time-Series Trend (Multi-Year)
 
 **Visualization — Monthly Revenue Trend**  
 <p align="center">
@@ -321,26 +276,32 @@ BI_Visuals/Sales%20Time%20Series.png
 
 ---
 
-### **Sales Performance**
+### Strategic Implications
 
--Total recorded revenue is approximately $281.5M.
-Revenue peaks in 2023, followed by a gradual decline in 2024–2025, indicating a post-growth normalization period.
+- Growth now depends more on repeat purchase retention than new acquisition
 
--Electronics is the largest revenue contributor (~$135M).
-It also has the highest AOV ($5K+), meaning the category is driven by fewer but higher-value premium transactions.
+- Electronics revenue concentration increases commercial dependency risk
 
--Sports, Fashion, and Books generate high order volume but lower AOV.
-These categories act as volume drivers, contributing strongly to transaction count but moderately to revenue share.
+- Volume-driven categories should be leveraged to cross-sell high-value segments
 
--Clear seasonal demand cycles are visible across multiple years.
-Revenue spikes occur during mid-year and year-end periods, reflecting strong response to retail campaigns and promotions.
+- Marketing teams can extend revenue uplift by expanding seasonal campaigns
 
--2025 indicates emerging demand slowdown signals.
-Annual order volume declines from 56K (2023) → 46K (2024) → 33K (2025), suggesting reduced purchasing frequency and potential retention risk.
+- Declining order volume in later years signals early churn & demand softening
 
--AOV remains stable at ~$1.28K despite order decline.
-This confirms performance impact is volume-driven, not caused by discount erosion or ticket-size reduction.
+---
 
+### Recommended Business Actions
+
+- Launch high-value Electronics loyalty bundles to stabilize premium revenue
+
+- Introduce cross-sell promotions in Sports & Fashion to lift AOV
+
+- Design reactivation campaigns targeting inactive 2024–2025 customers
+
+- Expand seasonal promotion windows into pre-event warm-up periods
+
+- Track early churn indicators through repeat purchase frequency monitoring
+  
 </div>
 
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
