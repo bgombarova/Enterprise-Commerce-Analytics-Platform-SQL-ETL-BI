@@ -85,7 +85,7 @@ Customer dynamics across 2021–2025 show a sharp decline in new customer acquis
 <table width="90%" align="center">
 <tr><td>
 
-> ###   **Product Performance & Revenue Concentration**
+ ###   **Product Performance & Revenue Concentration**
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 NorthStar’s product portfolio shows a high revenue concentration pattern, with Electronics accounting for 48% of total revenue, and the top three categories — Electronics, Home & Garden, and Sports — contributing over 80% of sales across 2021–2025. While order volumes are distributed relatively evenly across categories, Electronics generates disproportionately higher revenue, indicating dependence on a premium, high-value product mix rather than broad unit growth. As revenue declined through 2024–2025, the contraction was most pronounced within Electronics and other top categories, amplifying the overall slowdown due to limited diversification in lower-contributing segments. This concentration profile suggests increased exposure to demand volatility in core product lines, highlighting the need to strengthen portfolio balance through cross-selling, bundling, and adjacent category expansion.
