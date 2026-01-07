@@ -66,23 +66,6 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 
 ---
 
- **Revenue by Product Category**
-
-<p align="center">
-  <img src="BI_Visuals/Revenue%20By%20Product%20Category.png" width="92%">
-</p>
-
----
-
-**Revenue Time-Series Trend (Multi-Year)**
-
-<p align="center">
-  <img src="BI_Visuals/Sales%20Time%20Series.png" width="92%">
-</p
-BI_Visuals/Sales%20Time%20Series.png
-
----
-
 **Strategic Implications**
 
 - Growth now depends more on repeat purchase retention than new acquisition
