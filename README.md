@@ -14,27 +14,13 @@
 
 ### **Executive Summary**
 
-This project presents an end-to-end analytics study of a **US-based ecommerce company** operating in the consumer retail domain. The dataset contains multi-year transactional, customer, fulfillment, and behavioral records used to evaluate business performance across revenue trends, order volume, profitability, discount impact, returns, delivery performance, and customer engagement.
+**NorthStar Retail Inc.’s** multi-year ecommerce analysis across **2021–2025** shows total recorded revenue of **$281M**, with performance peaking in 2023 before entering a volume-driven slowdown through **2024–2025**. Orders decline from **56K to 33K** over the period, while Average Order Value remains stable at approximately $1.28K, indicating that the downturn is driven by weaker purchasing frequency rather than pricing or discount pressure.
 
-The research focuses on deriving actionable insights across:
+Revenue contribution is highly concentrated across major metro markets, with **New York City ($72.9M) and Chicago ($38.1M)** together accounting for roughly **40%** of total revenue, followed by Los Angeles and Atlanta as secondary growth hubs. This concentration supports short-term revenue strength but increases exposure to localized demand shifts and regional economic dependency.
 
-This project is designed around the core ecommerce questions that business stakeholders and leadership teams typically care about:
+Customer acquisition trends further reinforce emerging stability risk. New customer onboarding spikes early in 2021 before declining sharply across subsequent periods, shifting revenue reliance toward existing customers and repeat activity rather than sustained inbound growth.
 
-**Revenue Growth & Demand Trends** — How sales volume and revenue evolve over time, and where growth or slowdown signals emerge
-
-**Category & Product Profitability** — Which product groups drive profit vs volume, and where margin leakage occurs
-
-**Customer Value & Retention Health** — Which customers generate repeat revenue, where churn risk appears, and how purchasing behavior shifts over time
-
-**Price Sensitivity & Discount Dependency** — How discounts influence conversion, order value, and long-term revenue quality
-
-**Returns & Financial Risk Exposure** — Which segments experience higher return rates and associated loss impact
-
-**Delivery Performance & Experience Risk** — Where slow delivery correlates with operational friction or customer risk pockets
-
-**Market & Geographic Concentration** — Which cities and states contribute most to revenue and profitability
-
-Insights from this study are intended to support business leaders and operational teams in strategic planning, commercial decision-making, and performance optimization across the ecommerce lifecycle.
+NorthStar can benefit from strengthening **repeat-purchase and retention programs**, expanding performance within high-value metro regions while accelerating growth across under-penetrated markets, and improving **digital engagement channels** to stimulate order frequency and reduce geographic concentration dependency.
 
 </td></tr>
 </table>
