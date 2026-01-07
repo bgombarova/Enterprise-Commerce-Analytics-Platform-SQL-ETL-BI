@@ -63,52 +63,13 @@ NorthStar’s performance data shows that revenue movements across 2021–2025 a
 <table width="90%" align="center">
 <tr><td>
 
->### **Customer Behavior & Retention — Business Insights**
+>### **Customer Growth vs Retention**
 
 
-This section analyzes how customers behave across lifetime value, repeat purchase frequency, recency, churn risk, and acquisition cohorts.  
-The objective is to understand **customer retention strength, spending concentration, and lifecycle purchase behavior**.
-
----
-
-**Key Findings** 
-
-The platform is primarily sustained by **loyal repeat customers**
-
-- **3,926 customers** fall in the **High-Frequency (20+ purchases)** segment
-
-- These buyers form the **financial backbone of recurring revenue**
-
-Mid-frequency customers represent the **largest growth-conversion opportunity**
-
-- **1,067 customers** sit in the **6–20 purchase range**
-
-- They demonstrate consistent activity but have not yet reached **loyalty tier status**
-
-A small set of customers contributes disproportionately high lifetime value
-
-- Top customers generate** $400K–$900K+** lifetime revenue each
-
-- AOV ranges between **$4K–$25K,** indicating premium buyers
-
-Recency patterns suggest core customers remain active
-
-- Many top-value customers purchased within **1–20 days**
-
-- However, a subset shows **90–120+ day inactivity gaps**, signaling churn exposure
-
-New-customer acquisition has slowed over time
-
-- Initial cohorts show strong onboarding in early **2021**
-
-- Later months drop to **double-digit → single-digit inflow**
-
-- Growth is increasingly driven by **retention rather than acquisition**
+Customer dynamics across 2021–2025 show a sharp decline in new customer acquisition after the initial onboarding surge in 2021, with new customers dropping from 4,900+ in 2021 to near zero from 2023 onward. As acquisition slowed, revenue became increasingly concentrated among returning customers, who accounted for >99% of sales from 2022 onward and fully sustained the 2023 revenue peak. However, returning customer volume shows signs of softening through 2024–2025, indicating that recent revenue contraction is linked to weakening repeat purchasing activity rather than pricing or AOV erosion. The business is now highly dependent on a mature repeat-buyer base, creating exposure to demand volatility if retention or purchase frequency continues to decline.
 
 ---
  
-**Repeat Purchase Distribution — Frequency Buckets**
-
 
 <p align="center"> <img src="BI_Visuals/Repeat%20Purchase%20Frequency%20Buckets.png" width="92%"> </p>
 
