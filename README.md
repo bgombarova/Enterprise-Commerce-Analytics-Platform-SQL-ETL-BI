@@ -25,7 +25,7 @@ NorthStar can benefit from strengthening **repeat-purchase and retention program
 > <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 
-> **Core Analysis 1 — Revenue, Orders & AOV Performance**
+> ### **Core Analysis 1 — Revenue, Orders & AOV Performance**
 
 
 ---
@@ -50,34 +50,6 @@ NorthStar’s performance data shows that revenue movements across 2021–2025 a
 </table>
 
 ---
-
-**Strategic Implications**
-
-- Growth now depends more on repeat purchase retention than new acquisition
-
-- Electronics revenue concentration increases commercial dependency risk
-
-- Volume-driven categories should be leveraged to cross-sell high-value segments
-
-- Marketing teams can extend revenue uplift by expanding seasonal campaigns
-
-- Declining order volume in later years signals early churn & demand softening
-
----
-
-**Recommended Business Actions**
-
-- Launch high-value Electronics loyalty bundles to stabilize premium revenue
-
-- Introduce cross-sell promotions in Sports & Fashion to lift AOV
-
-- Design reactivation campaigns targeting inactive 2024–2025 customers
-
-- Expand seasonal promotion windows into pre-event warm-up periods
-
-- Track early churn indicators through repeat purchase frequency monitoring
-
-
 
 </td></tr>
 </table>
