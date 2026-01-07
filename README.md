@@ -71,7 +71,7 @@ Customer dynamics across 2021–2025 show a sharp decline in new customer acquis
 ---
  
 
-<p align="center"> <img src="BI_Visuals/Customer%20Growth%20vs%20Retention.png" width="92%"> </p>
+<p align="center"> <img src="BI_Visuals/Customer%20Growth%20vs%20Retention.png" width="98%"> </p>
 
 </td></tr>
 </table>
