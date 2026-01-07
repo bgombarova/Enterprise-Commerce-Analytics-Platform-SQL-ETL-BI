@@ -71,51 +71,7 @@ Customer dynamics across 2021–2025 show a sharp decline in new customer acquis
 ---
  
 
-<p align="center"> <img src="BI_Visuals/Repeat%20Purchase%20Frequency%20Buckets.png" width="92%"> </p>
-
----
-
-**Customer Acquisition Cohort Trend — First Purchase Month**
-
-<p align="center"> <img src="BI_Visuals/Customer%20Acquisition%20Cohort%20Trend.png" width="92%"> </p>
-
----
-
-**Business Implications**
-
-- Revenue stability depends heavily on repeat-buyer retention
-
-- The business is now retention-led rather than acquisition-led
-
-- Medium-frequency customers represent the highest-leverage expansion tier
-
-- Ultra-high-value customers require special treatment and churn monitoring
-
-- Acquisition slowdown indicates:
-
--- possible channel under-investment, or
-
--- market saturation in existing segments
-
----
-
-**Recommended Business Actions**
-
-**Short-Term (Retention Focus)**
-
-- Design loyalty-upgrade program for 6–20 order segment
-
-- Prioritize VIP relationship management for top-value customers
-
-- Trigger recency-based re-engagement campaigns for inactive high-value users
-
-**Medium-Term (Growth Pipeline)**
-
-- Reassess acquisition channel performance & spend allocation
-
-- Test referral + win-back incentives
-
-- Evaluate new-audience targeting & market segmentation
+<p align="center"> <img src="BI_Visuals/Customer%20Growth%20vs%20Retention.png" width="92%"> </p>
 
 </td></tr>
 </table>
