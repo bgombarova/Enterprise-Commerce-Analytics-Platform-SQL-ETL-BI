@@ -57,11 +57,11 @@ This indicate drop in performance is volume-driven, rahter than caused by discou
 **Sales Excutive KPI's**
 
 <p align="center">
-  <img src="BI_Visuals/Revenue%20KPI.png" width="92%">
+  <img src="BI_Visuals/Sales%20GROWTH%20KPI.png" width="92%">
 </p>
 
 <p align="center">
-  <img src="BI_Visuals/KPI%20Trend%20Details.png" width="92%">
+  <img src="BI_Visuals/Sales%2C%20AOV%2C%20ORDERs%20Trend.png" width="92%">
 </p
 
 ---
