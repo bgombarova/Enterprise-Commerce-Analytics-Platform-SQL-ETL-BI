@@ -25,7 +25,7 @@ NorthStar can benefit from strengthening **repeat-purchase and retention program
 > <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 
- # Case Study Insights
+ ## Case Study Insights
 
 ### **Sales Trends and Growth Rates**
 
@@ -120,7 +120,7 @@ Together, these analyses indicate that NorthStar’s revenue slowdown is primari
 <table width="90%" align="center">
 <tr><td>
 
-# Executive Recommendations
+## Executive Recommendations
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 ### 1) Prioritize Retention to Stabilize Order Volume
