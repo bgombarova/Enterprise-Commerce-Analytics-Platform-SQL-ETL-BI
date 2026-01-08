@@ -2,6 +2,7 @@
 
 
 **Table of Contents**
+--- 
 > 
 > - [Executive Summary](#executive-summary)
 > - [Case Study Insights](#case-study-insights)
@@ -156,5 +157,5 @@ With AOV remaining stable, future growth will depend more on increasing transact
 
 </div
 
-> NorthStar is a fictional retail company used for analytical demonstration purposes.
+_> NorthStar is a fictional retail company used for analytical demonstration purposes.
 
