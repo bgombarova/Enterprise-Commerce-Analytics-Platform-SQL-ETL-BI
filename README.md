@@ -128,7 +128,7 @@ Together, these analyses indicate that NorthStar’s revenue slowdown is primari
 
 # Executive Recommendations
 
-### 1. Prioritize Retention to Stabilize Order Volume
+### 1) Prioritize Retention to Stabilize Order Volume
 With revenue declines driven by reduced order activity and minimal new-customer inflow, leadership should focus on protecting and reactivating the returning-customer base. Improving repeat purchase frequency is the fastest lever to stabilize topline performance in the near term.
 
 ### 2. Rebuild New-Customer Acquisition in a Controlled Manner
