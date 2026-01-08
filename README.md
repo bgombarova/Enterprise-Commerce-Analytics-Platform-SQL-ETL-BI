@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-**NorthStar Retail Inc.’s** multi-year ecommerce analysis across **2021–2025** shows total recorded revenue of **$281M**, with performance peaking in 2023 before entering a volume-driven slowdown through **2024–2025**. Orders decline from **56K to 33K** over the period, while Average Order Value remains stable at approximately $1.28K, indicating that the downturn is driven by weaker purchasing frequency rather than pricing or discount pressure.
+**NorthStar Retail Inc.’s** multi-year ecommerce analysis across **2021–2025** shows total recorded revenue of **$298M**, with performance peaking in 2023 before entering a volume-driven slowdown through **2024–2025**. Orders decline from **56K to 33K** over the period, while Average Order Value remains stable at approximately $1.28K, indicating that the downturn is driven by weaker purchasing frequency rather than pricing or discount pressure.
 
 Revenue contribution is highly concentrated across major metro markets, with **New York City ($72.9M) and Chicago ($38.1M)** together accounting for roughly **40%** of total revenue, followed by Los Angeles and Atlanta as secondary growth hubs. This concentration supports short-term revenue strength but increases exposure to localized demand shifts and regional economic dependency.
 
