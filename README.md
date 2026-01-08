@@ -2,8 +2,6 @@
 ---
 <table width="90%" align="center">
 <tr><td>
-
-> <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
  
 ## Table of Contents
 
