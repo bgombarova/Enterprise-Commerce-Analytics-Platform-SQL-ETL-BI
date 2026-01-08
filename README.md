@@ -1,6 +1,5 @@
 # NorthStar’s Sales Analysis 2021–2025
 ---
-<table width="90%" align="center">
 <tr><td>
  
 ## Table of Contents
