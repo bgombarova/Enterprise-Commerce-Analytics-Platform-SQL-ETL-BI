@@ -32,9 +32,6 @@ NorthStar can benefit from strengthening **repeat-purchase and retention program
 NorthStar’s performance data shows that revenue movements across 2021–2025 are closely tied to shifts in order volume rather than changes in spend per transaction. The revenue peak in 2023 coincides with the highest order activity of the period, followed by material declines in both measures through 2024–2025, while Average Order Value remains relatively stable with only minor year-to-year variation. This pattern indicates that recent performance changes are driven by fewer transactions occurring, rather than lower pricing, discounting pressure, or erosion in ticket size. From an operational perspective, this reinforces that revenue stability is currently dependent on sustaining purchasing frequency and overall demand volume, rather than on price optimization or AOV expansion.
 
 
-
----
-
 <p align="center">
   <img src="BI_Visuals/Sales%20GROWTH%20KPI.png" width="98%">
 </p>
@@ -65,7 +62,6 @@ NorthStar’s performance data shows that revenue movements across 2021–2025 a
 
 Customer dynamics across 2021–2025 show a sharp decline in new customer acquisition after the initial onboarding surge in 2021, with new customers dropping from 4,900+ in 2021 to near zero from 2023 onward. As acquisition slowed, revenue became increasingly concentrated among returning customers, who accounted for >99% of sales from 2022 onward and fully sustained the 2023 revenue peak. However, returning customer volume shows signs of softening through 2024–2025, indicating that recent revenue contraction is linked to weakening repeat purchasing activity rather than pricing or AOV erosion. The business is now highly dependent on a mature repeat-buyer base, creating exposure to demand volatility if retention or purchase frequency continues to decline.
 
----
  
 
 <p align="center"> <img src="BI_Visuals/Customer%20Growth%20vs%20Retention.png" width="98%"> </p>
@@ -86,8 +82,6 @@ Customer dynamics across 2021–2025 show a sharp decline in new customer acquis
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 NorthStar’s product portfolio shows a high revenue concentration pattern, with Electronics accounting for 48% of total revenue, and the top three categories — Electronics, Home & Garden, and Sports — contributing over 80% of sales across 2021–2025. While order volumes are distributed relatively evenly across categories, Electronics generates disproportionately higher revenue, indicating dependence on a premium, high-value product mix rather than broad unit growth. As revenue declined through 2024–2025, the contraction was most pronounced within Electronics and other top categories, amplifying the overall slowdown due to limited diversification in lower-contributing segments. This concentration profile suggests increased exposure to demand volatility in core product lines, highlighting the need to strengthen portfolio balance through cross-selling, bundling, and adjacent category expansion.
-
----
 
 
 <p align="center"> <img src="BI_Visuals/Product%20PerformanceRevenue%20Concentration.png" width="98%"> </p>
@@ -123,7 +117,11 @@ Together, these analyses indicate that NorthStar’s revenue slowdown is primari
 
 ---
 
+<table width="90%" align="center">
+<tr><td>
+
 # Executive Recommendations
+<div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 ### 1) Prioritize Retention to Stabilize Order Volume
 With revenue declines driven by reduced order activity and minimal new-customer inflow, leadership should focus on protecting and reactivating the returning-customer base. Improving repeat purchase frequency is the fastest lever to stabilize topline performance in the near term.
@@ -137,5 +135,8 @@ Electronics and a small number of categories account for the majority of revenue
 ### 4) Shift Growth Focus from AOV to Purchase Frequency
 With AOV remaining stable, future growth will depend more on increasing transaction frequency rather than basket size. Engagement and reactivation strategies should prioritize frequency over pricing or discount expansion.
 
+</td></tr>
+</table>
 
+</div
 
