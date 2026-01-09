@@ -134,22 +134,22 @@ Together, these analyses indicate that NorthStar’s revenue slowdown is primari
 <div style="border:1px solid #d9d9d9; border-radius:6px; padding:16px; background:#fafafa;">
 
 ### 1) Prioritize Retention to Stabilize Order Volume
-With revenue declines driven by reduced order activity and minimal new-customer inflow, leadership should focus on protecting and reactivating the returning-customer base. Improving repeat purchase frequency is the fastest lever to stabilize topline performance in the near term.
+Revenue declines after 2023 are driven primarily by falling order volume rather than pricing or AOV erosion, while returning customers contribute the majority of total revenue across all years. Leadership should focus on reactivating and protecting the existing customer base, as improving repeat purchase frequency is the fastest and lowest-risk lever to stabilize topline performance in the near term.
 
 ---
 
 ### 2) Rebuild New-Customer Acquisition in a Controlled Manner
-Near-zero net-new customer growth since 2023 increases long-term revenue risk. Targeted acquisition efforts should be reintroduced selectively to restore a sustainable inflow without over-reliance on discount-led growth.
+Near-zero net-new customer inflow since 2023 increases long-term revenue sustainability risk and places excessive reliance on a mature returning-customer base. Selective, targeted acquisition efforts should be reintroduced to rebuild the customer pipeline while avoiding aggressive, discount-driven growth that could undermine margin quality.
 
 ---
 
 ### 3) Reduce Revenue Dependence on a Narrow Product Portfolio
-Electronics and a small number of categories account for the majority of revenue, amplifying downside risk during demand slowdowns. Expanding cross-category purchasing and strengthening adjacent product lines can improve portfolio resilience.
+Electronics and a small set of product categories account for a disproportionately large share of total revenue, increasing exposure to demand shocks within those segments. Encouraging cross-category purchasing and strengthening adjacent product lines can reduce concentration risk and improve revenue resilience during periods of market volatility.
 
 ---
 
 ### 4) Shift Growth Focus from AOV to Purchase Frequency
-With AOV remaining stable, future growth will depend more on increasing transaction frequency rather than basket size. Engagement and reactivation strategies should prioritize frequency over pricing or discount expansion.
+Average Order Value remains broadly stable across the analysis period, indicating that recent performance pressure is not driven by pricing weakness. Future growth efforts should therefore prioritize increasing purchase frequency through engagement, lifecycle marketing, and reactivation strategies rather than relying on basket expansion or additional discounting.
 
 </td></tr>
 </table>
